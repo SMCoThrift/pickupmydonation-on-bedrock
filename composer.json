@@ -37,6 +37,10 @@
     "2": {
       "type": "composer",
       "url": "https://connect.advancedcustomfields.com"
+    },
+    "3": {
+      "type": "vcs",
+      "url": "git@github.com:SMCoThrift/donation-manager.git"
     }
   },
   "require": {
@@ -58,7 +62,8 @@
     "wpackagist-theme/hello-elementor": "^2.9",
     "wenmark/gravityforms": "2.7.17.1",
     "wpengine/advanced-custom-fields-pro": "^6.2",
-    "wenmark/ithemes-security-pro": "^8.2"
+    "wenmark/ithemes-security-pro": "^8.2",
+    "smcothrift/donation-manager": "^4.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
