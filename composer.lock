@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c92dc077edd1e672a36dd3fc2db69383",
+    "content-hash": "94ce4936128b79884e56073d0985944e",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -362,6 +362,42 @@
             "time": "2023-11-12T22:16:48+00:00"
         },
         {
+            "name": "gravityforms/gravityforms",
+            "version": "2.8.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.1.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1704990092&Signature=Hf0FY5KljURFflU0u8Kb7W4I2TM%3D"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "gravityforms/gravityformsadvancedpostcreation",
+            "version": "1.4.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1704990789&Signature=5qm4jM6%2Fus9hrTAnlzZsMh9UPvQ%3D"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "gravityforms/gravityformscoupons",
+            "version": "3.3.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1704990965&Signature=F2eGkv88b4NwU9ifuWPD7b7Am0M%3D"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "gravityforms/gravityformsstripe",
+            "version": "5.4.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1704990983&Signature=W2V7QoZDjTLIdBwWf2mm4Yslab0%3D"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
             "name": "lukasbesch/bedrock-plugin-disabler",
             "version": "v1.4.0",
             "source": {
@@ -529,6 +565,128 @@
                 }
             ],
             "time": "2023-11-12T21:59:55+00:00"
+        },
+        {
+            "name": "piotrpress/composer-gravityforms",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/composer-gravityforms.git",
+                "reference": "e5d5480085e796c55f6e688dea3e678c5fc4d2e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/composer-gravityforms/zipball/e5d5480085e796c55f6e688dea3e678c5fc4d2e8",
+                "reference": "e5d5480085e796c55f6e688dea3e678c5fc4d2e8",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": ">=7.4",
+                "piotrpress/streamer": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "PiotrPress\\Composer\\GravityForms\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\Composer\\GravityForms\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://piotr.press"
+                }
+            ],
+            "description": "This composer plugin enables installation of GravityForms WordPress plugin and its addons.",
+            "homepage": "https://github.com/PiotrPress/composer-gravityforms",
+            "keywords": [
+                "addon",
+                "addons",
+                "composer",
+                "composer plugin",
+                "gravityforms",
+                "package",
+                "packages",
+                "php",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/PiotrPress/composer-gravityforms/issues",
+                "source": "https://github.com/PiotrPress/composer-gravityforms/tree/v1.0.0"
+            },
+            "time": "2023-12-11T14:50:02+00:00"
+        },
+        {
+            "name": "piotrpress/streamer",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PiotrPress/streamer.git",
+                "reference": "50404f34d5697bc596dc1c9be4ac0f81bb0e3baf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PiotrPress/streamer/zipball/50404f34d5697bc596dc1c9be4ac0f81bb0e3baf",
+                "reference": "50404f34d5697bc596dc1c9be4ac0f81bb0e3baf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.5.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PiotrPress\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Piotr Niewiadomski",
+                    "homepage": "https://github.com/PiotrPress"
+                }
+            ],
+            "description": "This library is a custom PHP Stream Wrapper, which provides write/read operations and stores the data in the memory.",
+            "homepage": "https://PiotrPress",
+            "keywords": [
+                "fake",
+                "file",
+                "filesystem",
+                "memory",
+                "mock",
+                "mockup",
+                "protocol",
+                "stream",
+                "stream wrapper",
+                "streamwrapper",
+                "temporary",
+                "url",
+                "virtual"
+            ],
+            "support": {
+                "source": "https://github.com/PiotrPress/streamer/tree/v1.1.0"
+            },
+            "time": "2022-04-15T09:24:07+00:00"
         },
         {
             "name": "rlanvin/php-form",

@@ -58,7 +58,12 @@
     "wpackagist-plugin/catch-ids": "^2.7",
     "wpackagist-plugin/custom-taxonomy-order-ne": "^4.0",
     "wpackagist-plugin/default-featured-image": "^1.7",
-    "wpackagist-plugin/disable-gutenberg": "^3.1"
+    "wpackagist-plugin/disable-gutenberg": "^3.1",
+    "piotrpress/composer-gravityforms": "^1.0",
+    "gravityforms/gravityforms": "^2.8",
+    "gravityforms/gravityformsadvancedpostcreation": "^1.4",
+    "gravityforms/gravityformscoupons": "^3.3",
+    "gravityforms/gravityformsstripe": "^5.4"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
@@ -69,7 +74,8 @@
     "preferred-install": "dist",
     "allow-plugins": {
       "composer/installers": true,
-      "roots/wordpress-core-installer": true
+      "roots/wordpress-core-installer": true,
+      "piotrpress/composer-gravityforms": true
     }
   },
   "minimum-stability": "dev",
