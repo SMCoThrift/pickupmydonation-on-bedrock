@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94ce4936128b79884e56073d0985944e",
+    "content-hash": "aaf410b75506fa356b1f7a16fbcd11cb",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -55,6 +55,69 @@
                 "source": "https://github.com/deliciousbrains/wp-background-processing/tree/1.1.1"
             },
             "time": "2023-07-18T10:22:06+00:00"
+        },
+        {
+            "name": "blackbricksoftware/composer-gravitywiz",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/blackbricksoftware/composer-gravitywiz.git",
+                "reference": "59efb3a6dbf705a513002981ce4573db3142c920"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/blackbricksoftware/composer-gravitywiz/zipball/59efb3a6dbf705a513002981ce4573db3142c920",
+                "reference": "59efb3a6dbf705a513002981ce4573db3142c920",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": ">=7.4",
+                "piotrpress/streamer": "^1.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "BlackBrickSoftware\\Composer\\GravityWiz\\Plugin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "BlackBrickSoftware\\Composer\\GravityWiz\\": "src/"
+                },
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Hayes",
+                    "homepage": "https://blackbricksoftware.com"
+                }
+            ],
+            "description": "This composer plugin enables installation of Gravity Perks WordPress plugins from Gravity Wiz. Base on Composer GravityForms (https://github.com/PiotrPress/composer-gravitywiz).",
+            "homepage": "https://github.com/blackbricksoftware/composer-gravitywiz/",
+            "keywords": [
+                "addon",
+                "addons",
+                "composer",
+                "composer plugin",
+                "gravityforms",
+                "gravityperks",
+                "gravitywiz",
+                "package",
+                "packages",
+                "php",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/blackbricksoftware/composer-gravitywiz/issues",
+                "source": "https://github.com/blackbricksoftware/composer-gravitywiz/tree/v1.0.0"
+            },
+            "time": "2024-01-06T03:00:22+00:00"
         },
         {
             "name": "cloudinary/cloudinary_php",
@@ -394,6 +457,15 @@
             "dist": {
                 "type": "zip",
                 "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1704990983&Signature=W2V7QoZDjTLIdBwWf2mm4Yslab0%3D"
+            },
+            "type": "wordpress-plugin"
+        },
+        {
+            "name": "gravitywiz/gp-ecommerce-fields",
+            "version": "1.2.26",
+            "dist": {
+                "type": "zip",
+                "url": "https://gravitywiz.com/gwapi/v2?edd_action=download_product&product_id=50319&url=http%3A%2F%2Flocalhost&license_id=7706&license_hash=90a02760ffd05687916b1ebd4f04acce&legacy=0"
             },
             "type": "wordpress-plugin"
         },
