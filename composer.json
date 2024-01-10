@@ -65,7 +65,13 @@
     "gravityforms/gravityformscoupons": "^3.3",
     "gravityforms/gravityformsstripe": "^5.4",
     "blackbricksoftware/composer-gravitywiz": "^1.0",
-    "gravitywiz/gp-ecommerce-fields": "^1.2"
+    "gravitywiz/gp-ecommerce-fields": "^1.2",
+    "wpackagist-plugin/instant-css": "^1.2",
+    "wpackagist-plugin/jetpack": "^12.9",
+    "wpackagist-plugin/redirection": "^5.4",
+    "wpackagist-plugin/simple-page-ordering": "^2.6",
+    "wpackagist-plugin/duplicate-post": "^4.5",
+    "wpackagist-plugin/wordpress-seo": "^21.8"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
