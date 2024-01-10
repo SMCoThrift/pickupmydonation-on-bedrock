@@ -76,7 +76,8 @@
     "wpackagist-plugin/simple-page-ordering": "^2.6",
     "wpackagist-plugin/duplicate-post": "^4.5",
     "wpackagist-plugin/wordpress-seo": "^21.8",
-    "yoast/wordpress-seo-premium": "^21.8"
+    "yoast/wordpress-seo-premium": "^21.8",
+    "wenmark/dynamic-content-for-elementor": "^2.12"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

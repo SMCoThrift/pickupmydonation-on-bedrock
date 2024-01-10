@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d20018f15a515cbd67c7c02e1902b330",
+    "content-hash": "cd82d5049a8bd52625c2d0e3e30ac0c1",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1599,6 +1599,25 @@
                 }
             ],
             "time": "2023-11-12T22:43:29+00:00"
+        },
+        {
+            "name": "wenmark/dynamic-content-for-elementor",
+            "version": "2.12.6",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/dynamic-content-for-elementor/2.12.6",
+                "shasum": "1bf5216b9a435fcb352e64d2189d67b8bf3d3602"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Dynamic.ooo",
+                "homepage": "https://www.dynamic.ooo/?utm_source=wp-plugins&#038;utm_campaign=plugin-uri&#038;utm_medium=wp-dash"
+            },
+            "description": "Building powerful websites by extending Elementor. We give you over 150 features that will save you time and money on achieving complex results. The only limit is your imagination.",
+            "homepage": "https://www.dynamic.ooo/dynamic-content-for-elementor?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
         },
         {
             "name": "wenmark/elementor-pro",
