@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c71000fa389c5362d4548306abcdfbd3",
+    "content-hash": "c92dc077edd1e672a36dd3fc2db69383",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1428,6 +1428,114 @@
             "homepage": "https://solidwp.com/products/security"
         },
         {
+            "name": "wpackagist-plugin/acf-extended",
+            "version": "0.8.9.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-extended/",
+                "reference": "tags/0.8.9.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.8.9.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-extended/"
+        },
+        {
+            "name": "wpackagist-plugin/akismet",
+            "version": "5.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
+                "reference": "tags/5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.5.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/catch-ids",
+            "version": "2.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/catch-ids/",
+                "reference": "tags/2.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/catch-ids.2.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/catch-ids/"
+        },
+        {
+            "name": "wpackagist-plugin/custom-taxonomy-order-ne",
+            "version": "4.0.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-taxonomy-order-ne/",
+                "reference": "tags/4.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-taxonomy-order-ne.4.0.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-taxonomy-order-ne/"
+        },
+        {
+            "name": "wpackagist-plugin/default-featured-image",
+            "version": "1.7.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/default-featured-image/",
+                "reference": "tags/1.7.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/default-featured-image.1.7.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/default-featured-image/"
+        },
+        {
+            "name": "wpackagist-plugin/disable-gutenberg",
+            "version": "3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/disable-gutenberg/",
+                "reference": "tags/3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.3.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disable-gutenberg/"
+        },
+        {
             "name": "wpackagist-plugin/elementor",
             "version": "3.18.2",
             "source": {
@@ -1444,6 +1552,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/host-analyticsjs-local",
+            "version": "4.7.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/host-analyticsjs-local/",
+                "reference": "tags/4.7.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/host-analyticsjs-local.4.7.15.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/host-analyticsjs-local/"
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
