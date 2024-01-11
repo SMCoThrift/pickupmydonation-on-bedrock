@@ -11,6 +11,7 @@ web/app/cache/*
 sql/
 auth.json
 public/
+*.sublime-*
 
 # WordPress
 web/wp
