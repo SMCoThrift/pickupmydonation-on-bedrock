@@ -111,6 +111,10 @@ Config::define('NONCE_SALT', env('NONCE_SALT'));
  */
 Config::define('AUTOMATIC_UPDATER_DISABLED', true);
 Config::define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
+Config::define('DM_GOOGLE_MAPS_API_KEY', env('DM_GOOGLE_MAPS_API_KEY'));
+Config::define('CLOUDINARY_CLOUD_NAME', env('CLOUDINARY_CLOUD_NAME'));
+Config::define('CLOUDINARY_API_KEY', env('CLOUDINARY_API_KEY'));
+Config::define('CLOUDINARY_API_SECRET', env('CLOUDINARY_API_SECRET'));
 
 // Disable the plugin and theme file editor in the admin
 Config::define('DISALLOW_FILE_EDIT', true);
