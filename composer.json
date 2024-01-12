@@ -12,6 +12,10 @@
     }
   ],
   "repositories": {
+    "mwender": {
+      "type": "vcs",
+      "url": "https://github.com/mwender/php-form"
+    },
     "my-yoast": {
       "type": "composer",
       "url": "https://my.yoast.com/packages/"
@@ -55,7 +59,7 @@
     "wenmark/gravityforms": "2.7.17.1",
     "wpengine/advanced-custom-fields-pro": "^6.2",
     "wenmark/ithemes-security-pro": "^8.2",
-    "smcothrift/donation-manager": "^4.2",
+    "smcothrift/donation-manager": "dev-develop",
     "wpackagist-plugin/acf-extended": "0.8.9.5",
     "wpackagist-plugin/akismet": "^5.3",
     "wpackagist-plugin/host-analyticsjs-local": "^4.7",
