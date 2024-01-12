@@ -429,7 +429,7 @@
             "version": "2.8.1",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.1.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705159297&Signature=0L6Ov19fkjUey%2B5eNeGtmX677Y0%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.1.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705159751&Signature=v1huHRVlhqDETXSIwUfW6le7vFo%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -438,7 +438,7 @@
             "version": "1.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705159298&Signature=7DjuyPZ6wFDwoylxA4tIh9GZhnk%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705159751&Signature=KceGTWD3zLJ7ASF7X%2F%2FG3rlksUE%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -447,7 +447,7 @@
             "version": "3.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705159298&Signature=13RqlNHmqyF6uTdlVhktCSV37gA%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705159752&Signature=2d21ZTbNww6O2L8OUcohAYwInGM%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -456,7 +456,7 @@
             "version": "5.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705159298&Signature=KzZYxCYuq%2BMS3Q0wrbD5O3nW7wQ%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705159752&Signature=B2%2Bk1KaDaaC2Drdhut3GSbiMFEI%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -519,12 +519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mwender/php-form.git",
-                "reference": "6da451c955936710f86e2e962c123a5787f31b52"
+                "reference": "022ec79668bfbf02cc1ca9f7e05476dd4d780b22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mwender/php-form/zipball/6da451c955936710f86e2e962c123a5787f31b52",
-                "reference": "6da451c955936710f86e2e962c123a5787f31b52",
+                "url": "https://api.github.com/repos/mwender/php-form/zipball/022ec79668bfbf02cc1ca9f7e05476dd4d780b22",
+                "reference": "022ec79668bfbf02cc1ca9f7e05476dd4d780b22",
                 "shasum": ""
             },
             "require": {
@@ -553,7 +553,7 @@
             "support": {
                 "source": "https://github.com/mwender/php-form/tree/master"
             },
-            "time": "2024-01-12T15:05:14+00:00"
+            "time": "2024-01-12T15:28:39+00:00"
         },
         {
             "name": "oscarotero/env",
