@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b55e7bb232deb26fc3d9796ca642e5e",
+    "content-hash": "67c004918c1d3f14e3b512310e18a129",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -118,63 +118,6 @@
                 "source": "https://github.com/blackbricksoftware/composer-gravitywiz/tree/v1.0.0"
             },
             "time": "2024-01-06T03:00:22+00:00"
-        },
-        {
-            "name": "cloudinary/cloudinary_php",
-            "version": "1.20.2",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:cloudinary/cloudinary_php.git",
-                "reference": "c5d2eb500a92802ef958f8bb36d81af07fb3f6f7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/c5d2eb500a92802ef958f8bb36d81af07fb3f6f7",
-                "reference": "c5d2eb500a92802ef958f8bb36d81af07fb3f6f7",
-                "shasum": ""
-            },
-            "require": {
-                "ext-curl": "*",
-                "ext-json": "*",
-                "php": ">=5.4.0"
-            },
-            "require-dev": {
-                "ext-zip": "*",
-                "phpunit/phpunit": "4.8.*"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "src/Helpers.php"
-                ],
-                "classmap": [
-                    "src"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Cloudinary",
-                    "homepage": "https://github.com/cloudinary/cloudinary_php/graphs/contributors"
-                }
-            ],
-            "description": "Cloudinary PHP SDK",
-            "homepage": "https://github.com/cloudinary/cloudinary_php",
-            "keywords": [
-                "cdn",
-                "cloud",
-                "cloudinary",
-                "image management",
-                "sdk"
-            ],
-            "support": {
-                "email": "info@cloudinary.com",
-                "issues": "https://github.com/cloudinary/cloudinary_php/issues"
-            },
-            "time": "2023-02-09T18:55:50+00:00"
         },
         {
             "name": "collizo4sky/persist-admin-notices-dismissal",
@@ -429,7 +372,7 @@
             "version": "2.8.1",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.1.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705507720&Signature=EqA0IV0nZNnqiTuEhVisv2Pjbpg%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.1.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705510035&Signature=6q5JV0kM7jK%2FPchxSAu39nLbzQQ%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -438,7 +381,7 @@
             "version": "1.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705507720&Signature=h4dh1G%2FvTAX7O0%2Bx6ztgK3kUoJ8%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705510035&Signature=2IwXJohIHdG4iOMzfeJ%2FCtX%2B4bU%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -447,7 +390,7 @@
             "version": "3.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705507720&Signature=Cwm71KEmW3%2FUneakoD6u%2FBn1ZBI%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705510036&Signature=D%2F1Bjm%2Fnkx4b%2Bl%2FtZKDcsUYTtKU%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -456,7 +399,7 @@
             "version": "5.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705507721&Signature=dD%2FJlknL%2BHj2KXSfp%2F0Ka%2FGbKMo%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705510036&Signature=gBRMwnLjmaz7FzGvaNrIULvMEvY%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -512,6 +455,72 @@
                 "source": "https://github.com/lukasbesch/bedrock-plugin-disabler/tree/v1.4.0"
             },
             "time": "2023-02-06T12:11:13+00:00"
+        },
+        {
+            "name": "mwender/cloudinary_php",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mwender/cloudinary_php.git",
+                "reference": "7b04f435b6b65fe6a7b6a9ff38ba7a22a29e7693"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mwender/cloudinary_php/zipball/7b04f435b6b65fe6a7b6a9ff38ba7a22a29e7693",
+                "reference": "7b04f435b6b65fe6a7b6a9ff38ba7a22a29e7693",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "ext-zip": "*",
+                "phpunit/phpunit": "4.8.*"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ],
+                "files": [
+                    "src/Helpers.php"
+                ]
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Cloudinary\\Test\\": "tests/"
+                },
+                "files": [
+                    "tests/TestHelper.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cloudinary",
+                    "homepage": "https://github.com/cloudinary/cloudinary_php/graphs/contributors"
+                }
+            ],
+            "description": "Cloudinary PHP SDK",
+            "homepage": "https://github.com/cloudinary/cloudinary_php",
+            "keywords": [
+                "cdn",
+                "cloud",
+                "cloudinary",
+                "image management",
+                "sdk"
+            ],
+            "support": {
+                "email": "info@cloudinary.com",
+                "issues": "https://github.com/cloudinary/cloudinary_php/issues",
+                "source": "https://github.com/mwender/cloudinary_php/tree/main"
+            },
+            "time": "2024-01-16T16:46:55+00:00"
         },
         {
             "name": "mwender/php-form",
@@ -1256,18 +1265,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "5ebcd194b540c6597f4335f8a2ba23da01bdd40f"
+                "reference": "258b48d9a979818424f0422f392aa6e3110a6296"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/5ebcd194b540c6597f4335f8a2ba23da01bdd40f",
-                "reference": "5ebcd194b540c6597f4335f8a2ba23da01bdd40f",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/258b48d9a979818424f0422f392aa6e3110a6296",
+                "reference": "258b48d9a979818424f0422f392aa6e3110a6296",
                 "shasum": ""
             },
             "require": {
                 "a5hleyrich/wp-background-processing": "^1.0",
-                "cloudinary/cloudinary_php": "^1.20.2",
                 "collizo4sky/persist-admin-notices-dismissal": "^1.4",
+                "mwender/cloudinary_php": "dev-main",
                 "mwender/php-form": "dev-master",
                 "php": ">=8.0",
                 "zordius/lightncandy": "^1.2"
@@ -1289,7 +1298,7 @@
                 "source": "https://github.com/SMCoThrift/donation-manager/tree/develop",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-01-16T16:05:44+00:00"
+            "time": "2024-01-16T16:32:23+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3228,5 +3237,5 @@
         "php": ">=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }
