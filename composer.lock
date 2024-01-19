@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67c004918c1d3f14e3b512310e18a129",
+    "content-hash": "98c9cad54cff9f012dc4233462353a32",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1725,6 +1725,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/acf-extended/"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-access-manager",
+            "version": "6.9.20",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
+                "reference": "tags/6.9.20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.20.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-access-manager/"
         },
         {
             "name": "wpackagist-plugin/akismet",
