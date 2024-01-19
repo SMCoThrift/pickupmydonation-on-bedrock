@@ -372,7 +372,7 @@
             "version": "2.8.2",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.2.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705761676&Signature=V3ok%2BLjFu0jvM6B%2F35NeJps5sFc%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.2.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705762784&Signature=ySmvo26lJKF0KwSZTWNSuTv8aVI%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -381,7 +381,7 @@
             "version": "1.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705761677&Signature=2VbfosNqeeJf9xd18dC92dJIBbg%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705762785&Signature=eioeBzeOKVi07eYEKbZHAWOio1E%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -390,7 +390,7 @@
             "version": "3.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705761677&Signature=Sz9NMl%2FVoPsVwX8GOqD4A6ojQiE%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705762785&Signature=NwlQOjAwuI76nDncI5CTi2oyodY%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -399,7 +399,7 @@
             "version": "5.4.3",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.3.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705761677&Signature=%2FaTBDczwt3tgTs3joPqzIWo5vRc%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.3.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1705762785&Signature=0LplCE2leYN4o7%2F4fkNAgc5cEYE%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -1265,12 +1265,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "e78a562e3c4e1dfd3f5e83d16ad564642e8ba0e4"
+                "reference": "57e90491e622ed0d01b6f282c5053951feeec1a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/e78a562e3c4e1dfd3f5e83d16ad564642e8ba0e4",
-                "reference": "e78a562e3c4e1dfd3f5e83d16ad564642e8ba0e4",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/57e90491e622ed0d01b6f282c5053951feeec1a9",
+                "reference": "57e90491e622ed0d01b6f282c5053951feeec1a9",
                 "shasum": ""
             },
             "require": {
@@ -1298,7 +1298,7 @@
                 "source": "https://github.com/SMCoThrift/donation-manager/tree/develop",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-01-19T14:39:04+00:00"
+            "time": "2024-01-19T14:59:00+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
