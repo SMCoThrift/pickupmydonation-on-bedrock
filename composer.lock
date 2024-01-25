@@ -372,7 +372,7 @@
             "version": "2.8.2",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.2.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281713&Signature=V1VnKsQlsLiaKkSnmv7ak3%2BgGdA%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.2.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706282193&Signature=dxz79NLzrPf7%2Bn4AQRH35a6e%2BWM%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -381,7 +381,7 @@
             "version": "1.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281713&Signature=e%2FTsZxQhQh31%2BBAaU3U89sowBeE%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706282193&Signature=0K2h7yhTW1QGuTwg8Vbjlr55wAI%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -390,7 +390,7 @@
             "version": "3.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281713&Signature=d5Cu%2B8hoOenjMI4Ksr5e3oMResA%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706282193&Signature=eJzDSit0dJ%2FIM28lf6y59wthnhs%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -399,7 +399,7 @@
             "version": "5.4.3",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.3.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281713&Signature=0Btl6mtHqe5f6MYN%2F7L1XBJ4Luw%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.3.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706282194&Signature=2taKv1xkUPNjxjmR06ZRcI2VJM8%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -1634,11 +1634,11 @@
         },
         {
             "name": "wenmark/dynamic-content-for-elementor",
-            "version": "2.12.6",
+            "version": "2.12.7",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/dynamic-content-for-elementor/2.12.6",
-                "shasum": "1bf5216b9a435fcb352e64d2189d67b8bf3d3602"
+                "url": "https://packages.wenmarkdigital.com/satispress/dynamic-content-for-elementor/2.12.7",
+                "shasum": "f536520a462485211d96ea3ea8edcf9b6e3b0a01"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1691,11 +1691,11 @@
         },
         {
             "name": "wenmark/gravityperks",
-            "version": "2.3.4",
+            "version": "2.3.6",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gravityperks/2.3.4",
-                "shasum": "482599bbd0974665ff2e1030b75f3412e8819551"
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityperks/2.3.6",
+                "shasum": "eaa214b45726ba6a8b32395e994ca0458990e6a7"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
