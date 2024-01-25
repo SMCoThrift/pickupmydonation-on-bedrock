@@ -1,6 +1,6 @@
 <?php
 /**
- * Configuration overrides for WP_ENV === 'development'
+ * Configuration overrides for WP_ENV === 'localhost'
  */
 
 use Roots\WPConfig\Config;
@@ -21,5 +21,6 @@ Config::define('DISALLOW_FILE_MODS', false);
 
 // Development env disabled plugins
 Config::define('DISABLED_PLUGINS', [
-    'jetpack/jetpack.php',
+    'spinupwp/spinupwp.php',
+    'limit-login-attempts-reloaded/limit-login-attempts-reloaded.php',
 ]);
