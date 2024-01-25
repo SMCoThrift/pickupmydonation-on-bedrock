@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2bd4665b94c63b93cd145d15b91bec87",
+    "content-hash": "c61cbc1ce014467eec898ba6e6b610fd",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1688,6 +1688,25 @@
             },
             "description": "Easily create web forms and manage form entries within the WordPress admin.",
             "homepage": "https://gravityforms.com"
+        },
+        {
+            "name": "wenmark/gravityperks",
+            "version": "2.3.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityperks/2.3.4",
+                "shasum": "482599bbd0974665ff2e1030b75f3412e8819551"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "Gravity Wiz",
+                "homepage": "https://gravitywiz.com/"
+            },
+            "description": "Effortlessly install and manage small functionality enhancements (aka \"perks\") for Gravity Forms.",
+            "homepage": "https://gravitywiz.com/"
         },
         {
             "name": "wenmark/ithemes-security-pro",
