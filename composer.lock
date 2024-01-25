@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30ef3f0a52e8f5263012f8b26bb0b4dd",
+    "content-hash": "2bd4665b94c63b93cd145d15b91bec87",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -372,7 +372,7 @@
             "version": "2.8.2",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.2.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281617&Signature=igrB0TohbFW0xpFSfVQLmtK45Jg%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.2.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281713&Signature=V1VnKsQlsLiaKkSnmv7ak3%2BgGdA%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -381,7 +381,7 @@
             "version": "1.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281617&Signature=XEYbygRCFI0cUUAh8gRNrbFIOfE%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281713&Signature=e%2FTsZxQhQh31%2BBAaU3U89sowBeE%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -390,7 +390,7 @@
             "version": "3.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281617&Signature=ld3rct66Dw1EyeFWgalJK31i28c%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281713&Signature=d5Cu%2B8hoOenjMI4Ksr5e3oMResA%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -399,7 +399,7 @@
             "version": "5.4.3",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.3.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281618&Signature=DyJbXwAU4RhfhCuqMab%2F%2Byiw%2B%2F4%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.3.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1706281713&Signature=0Btl6mtHqe5f6MYN%2F7L1XBJ4Luw%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -1908,15 +1908,15 @@
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "12.9.3",
+            "version": "13.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "tags/12.9.3"
+                "reference": "tags/13.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.12.9.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/jetpack.13.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
