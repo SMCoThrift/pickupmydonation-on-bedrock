@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61cbc1ce014467eec898ba6e6b610fd",
+    "content-hash": "729c776622fb24b85e4882f77421c079",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -372,7 +372,7 @@
             "version": "2.8.3",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.3.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707229262&Signature=Rz2dwGVORK8VXy8qMkdwgvKBwcQ%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.3.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707229368&Signature=7QfiWGS814SoskBl6qMDkcFJy3I%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -381,7 +381,7 @@
             "version": "1.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707229262&Signature=6OITy7asjdb4MYK1FjSgmQvip4s%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707229368&Signature=0985%2FluI85czFhO2lOnQrlJJaxQ%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -390,7 +390,7 @@
             "version": "3.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707229262&Signature=l1Lc9fxrCGxf6ATt1109ilXxntA%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707229369&Signature=K7w7ns1O%2BjLJFOtde%2FzWp0UtZos%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -399,7 +399,7 @@
             "version": "5.4.4",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.4.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707229263&Signature=t2HK3dhQ9%2BFxW1oVD71%2FPfHKBv8%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.4.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707229369&Signature=1xb%2F9Yht2v%2BSlFv92pca5hlaT9A%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -952,7 +952,7 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "6.4.2",
+            "version": "6.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/wordpress.git",
@@ -983,7 +983,7 @@
             ],
             "support": {
                 "issues": "https://github.com/roots/wordpress/issues",
-                "source": "https://github.com/roots/wordpress/tree/6.4.2"
+                "source": "https://github.com/roots/wordpress/tree/6.4.3"
             },
             "funding": [
                 {
@@ -1066,22 +1066,22 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.4.2",
+            "version": "6.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.4.2"
+                "reference": "6.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.4.2-no-content.zip",
-                "shasum": "77d5fc8e5535fc2c63c1c6ae0c4763aad10ac8e7"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.4.3-no-content.zip",
+                "shasum": "4138c6337bf524159b406d5b27916deebb0f78df"
             },
             "require": {
                 "php": ">= 7.0.0"
             },
             "provide": {
-                "wordpress/core-implementation": "6.4.2"
+                "wordpress/core-implementation": "6.4.3"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -1132,7 +1132,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2023-12-06T16:27:40+00:00"
+            "time": "2024-01-30T19:32:01+00:00"
         },
         {
             "name": "roots/wp-config",
