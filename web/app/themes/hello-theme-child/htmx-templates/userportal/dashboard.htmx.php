@@ -7,6 +7,6 @@ if (!isset($_SERVER['HTTP_X_WP_NONCE']) || !wp_verify_nonce($_SERVER['HTTP_X_WP_
 }
 ?>
     <div>
-        Dashboard
+        Dashboard content
     </div>
 <?php
