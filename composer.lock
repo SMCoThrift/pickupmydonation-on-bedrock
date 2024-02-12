@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "729c776622fb24b85e4882f77421c079",
+    "content-hash": "4df066e7a59b19219891a2c6a1b50ede",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -521,6 +521,43 @@
                 "source": "https://github.com/mwender/cloudinary_php/tree/main"
             },
             "time": "2024-01-16T16:46:55+00:00"
+        },
+        {
+            "name": "mwender/htmx-api-wp",
+            "version": "0.1.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mwender/htmx-api-wp.git",
+                "reference": "6ef085988666a4d4a7d1371788f054d24a91abbd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mwender/htmx-api-wp/zipball/6ef085988666a4d4a7d1371788f054d24a91abbd",
+                "reference": "6ef085988666a4d4a7d1371788f054d24a91abbd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Esteban Cuevas",
+                    "homepage": "https://actitud.xyz/"
+                }
+            ],
+            "description": "An un-official HTMX API for WordPress",
+            "homepage": "https://github.com/TCattd/HTMX-API-WP",
+            "keywords": [
+                "api",
+                "htmx",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/mwender/htmx-api-wp/tree/0.1.7"
+            },
+            "time": "2024-01-19T12:25:23+00:00"
         },
         {
             "name": "mwender/php-form",

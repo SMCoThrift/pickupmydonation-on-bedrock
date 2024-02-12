@@ -41,6 +41,10 @@
     "4": {
       "type": "vcs",
       "url": "git@github.com:mwender/cloudinary_php.git"
+    },
+    "5": {
+      "type": "vcs",
+      "url": "git@github.com:mwender/htmx-api-wp.git"
     }
   },
   "require": {
@@ -87,7 +91,8 @@
     "yoast/wordpress-seo-premium": "^21.8",
     "wenmark/dynamic-content-for-elementor": "^2.12",
     "wpackagist-plugin/advanced-access-manager": "^6.9",
-    "wenmark/gravityperks": "^2.3"
+    "wenmark/gravityperks": "^2.3",
+    "mwender/htmx-api-wp": "^0.1.7"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
