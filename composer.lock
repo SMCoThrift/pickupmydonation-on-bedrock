@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ed2e0c268d345bc6ee5c7c00430c6eb",
+    "content-hash": "7e37a0ea43630222b855e2fb86c6b30b",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -369,10 +369,10 @@
         },
         {
             "name": "gravityforms/gravityforms",
-            "version": "2.8.3",
+            "version": "2.8.3.1",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.3.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707834085&Signature=Fj1W7WZFXNNArQ77j92tcqZIRJs%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/releases/gravityforms_2.8.3.1.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1708180800&Signature=W0%2FYdiRTRD%2BhGBfJkFBBrWgUjv4%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -381,7 +381,7 @@
             "version": "1.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707834085&Signature=OeknVJuX7CMMwBLYXlGS92hSgWg%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/advancedpostcreation/gravityformsadvancedpostcreation_1.4.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1708180801&Signature=EhvuZTmfMqyfaLYH6jFycWttXMc%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -390,7 +390,7 @@
             "version": "3.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707834085&Signature=osec7hT0%2BmIxRgCiDkP9e%2BcOAKU%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/coupons/gravityformscoupons_3.3.0.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1708180801&Signature=AOfIWJYHYZ4MX05U0w%2FxPE0Z1%2Fk%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -399,7 +399,7 @@
             "version": "5.4.6",
             "dist": {
                 "type": "zip",
-                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.6.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1707834085&Signature=R4rmpRr15fbXHbtWajYb2gq1iRE%3D"
+                "url": "https://s3.amazonaws.com/gravityforms/addons/stripe/gravityformsstripe_5.4.6.zip?AWSAccessKeyId=AKIA5U3GBHC5WDRZA6NK&Expires=1708180801&Signature=XOG0%2F6VV5ucFEb11yHpUhTtLEjM%3D"
             },
             "type": "wordpress-plugin"
         },
@@ -521,6 +521,44 @@
                 "source": "https://github.com/mwender/cloudinary_php/tree/main"
             },
             "time": "2024-01-16T16:46:55+00:00"
+        },
+        {
+            "name": "mwender/htmx-api-wp",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mwender/htmx-api-wp.git",
+                "reference": "6b0122f5b722392484bdbea407b0a0e8f88c8f6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mwender/htmx-api-wp/zipball/6b0122f5b722392484bdbea407b0a0e8f88c8f6d",
+                "reference": "6b0122f5b722392484bdbea407b0a0e8f88c8f6d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.0"
+            },
+            "default-branch": true,
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Esteban Cuevas",
+                    "homepage": "https://actitud.xyz/"
+                }
+            ],
+            "description": "An un-official HTMX API for WordPress",
+            "homepage": "https://github.com/TCattd/HTMX-API-WP",
+            "keywords": [
+                "api",
+                "htmx",
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "source": "https://github.com/mwender/htmx-api-wp/tree/main"
+            },
+            "time": "2024-02-12T20:54:46+00:00"
         },
         {
             "name": "mwender/php-form",
@@ -1265,12 +1303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "a829417fe0cd2ad328a8cd3fe5248f9d768c536e"
+                "reference": "f781785f502559e37397ac7ff04631b59c8c7d98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/a829417fe0cd2ad328a8cd3fe5248f9d768c536e",
-                "reference": "a829417fe0cd2ad328a8cd3fe5248f9d768c536e",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/f781785f502559e37397ac7ff04631b59c8c7d98",
+                "reference": "f781785f502559e37397ac7ff04631b59c8c7d98",
                 "shasum": ""
             },
             "require": {
@@ -1298,7 +1336,7 @@
                 "source": "https://github.com/SMCoThrift/donation-manager/tree/develop",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-02-12T14:05:51+00:00"
+            "time": "2024-02-16T14:21:11+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1701,11 +1739,11 @@
         },
         {
             "name": "wenmark/ithemes-security-pro",
-            "version": "8.2.0",
+            "version": "8.3.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.2.0",
-                "shasum": "5f121ed82a36ba0bf6afde7770a95b9768d3599d"
+                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.3.2",
+                "shasum": "20aa2389066846dd87c3038aeba20d38ade5d424"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1716,7 +1754,7 @@
                 "homepage": "https://solidwp.com"
             },
             "description": "Shield your site from cyberattacks and prevent security vulnerabilities. The only security plugin you need for a solid foundation.",
-            "homepage": "https://solidwp.com/products/security"
+            "homepage": "https://solidwp.com/security"
         },
         {
             "name": "wpackagist-plugin/acf-extended",
@@ -1738,15 +1776,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.9.21",
+            "version": "6.9.22",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.9.21"
+                "reference": "tags/6.9.22"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.21.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.22.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1936,15 +1974,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "2.26.3",
+            "version": "2.26.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/2.26.3"
+                "reference": "tags/2.26.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.26.3.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.26.4.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2450,55 +2488,17 @@
     ],
     "packages-dev": [
         {
-            "name": "mwender/htmx-api-wp",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mwender/htmx-api-wp.git",
-                "reference": "6b0122f5b722392484bdbea407b0a0e8f88c8f6d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mwender/htmx-api-wp/zipball/6b0122f5b722392484bdbea407b0a0e8f88c8f6d",
-                "reference": "6b0122f5b722392484bdbea407b0a0e8f88c8f6d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.0"
-            },
-            "default-branch": true,
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Esteban Cuevas",
-                    "homepage": "https://actitud.xyz/"
-                }
-            ],
-            "description": "An un-official HTMX API for WordPress",
-            "homepage": "https://github.com/TCattd/HTMX-API-WP",
-            "keywords": [
-                "api",
-                "htmx",
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "source": "https://github.com/mwender/htmx-api-wp/tree/main"
-            },
-            "time": "2024-02-12T20:54:46+00:00"
-        },
-        {
             "name": "roave/security-advisories",
             "version": "dev-latest",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "feb85d42c6880b348e404115e011ae2201f49bba"
+                "reference": "683c8e7acb9c333990683edd7faed421c87d3954"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/feb85d42c6880b348e404115e011ae2201f49bba",
-                "reference": "feb85d42c6880b348e404115e011ae2201f49bba",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/683c8e7acb9c333990683edd7faed421c87d3954",
+                "reference": "683c8e7acb9c333990683edd7faed421c87d3954",
                 "shasum": ""
             },
             "conflict": {
@@ -2602,7 +2602,7 @@
                 "dbrisinajumi/d2files": "<1",
                 "dcat/laravel-admin": "<=2.1.3.0-beta",
                 "derhansen/fe_change_pwd": "<2.0.5|>=3,<3.0.3",
-                "derhansen/sf_event_mgt": "<4.3.1|>=5,<5.1.1",
+                "derhansen/sf_event_mgt": "<4.3.1|>=5,<5.1.1|>=7,<7.4",
                 "desperado/xml-bundle": "<=0.1.7",
                 "directmailteam/direct-mail": "<6.0.3|>=7,<7.0.3|>=8,<9.5.2",
                 "doctrine/annotations": "<1.2.7",
@@ -2617,7 +2617,7 @@
                 "dolibarr/dolibarr": "<18.0.2",
                 "dompdf/dompdf": "<2.0.4",
                 "doublethreedigital/guest-entries": "<3.1.2",
-                "drupal/core": "<9.5.11|>=10,<10.0.11|>=10.1,<10.1.4",
+                "drupal/core": ">=6,<6.38|>=7,<7.96|>=8,<10.1.8|>=10.2,<10.2.2",
                 "drupal/drupal": ">=5,<5.11|>=6,<6.38|>=7,<7.80|>=8,<8.9.16|>=9,<9.1.12|>=9.2,<9.2.4",
                 "duncanmcclean/guest-entries": "<3.1.2",
                 "dweeves/magmi": "<=0.7.24",
@@ -2783,7 +2783,7 @@
                 "liftkit/database": "<2.13.2",
                 "limesurvey/limesurvey": "<3.27.19",
                 "livehelperchat/livehelperchat": "<=3.91",
-                "livewire/livewire": ">2.2.4,<2.2.6|>=3,<3.0.4",
+                "livewire/livewire": ">2.2.4,<2.2.6",
                 "lms/routes": "<2.1.1",
                 "localizationteam/l10nmgr": "<7.4|>=8,<8.7|>=9,<9.2",
                 "luyadev/yii-helpers": "<1.2.1",
@@ -2906,7 +2906,7 @@
                 "pimcore/ecommerce-framework-bundle": "<1.0.10",
                 "pimcore/perspective-editor": "<1.5.1",
                 "pimcore/pimcore": "<11.1.1",
-                "pixelfed/pixelfed": "<=0.11.4",
+                "pixelfed/pixelfed": "<0.11.11",
                 "plotly/plotly.js": "<2.25.2",
                 "pocketmine/bedrock-protocol": "<8.0.2",
                 "pocketmine/pocketmine-mp": "<=4.23|>=5,<5.3.1",
@@ -3084,14 +3084,13 @@
                 "twig/twig": "<1.44.7|>=2,<2.15.3|>=3,<3.4.3",
                 "typo3/cms": "<9.5.29|>=10,<10.4.35|>=11,<11.5.23|>=12,<12.2",
                 "typo3/cms-backend": "<4.1.14|>=4.2,<4.2.15|>=4.3,<4.3.7|>=4.4,<4.4.4|>=7,<=7.6.50|>=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
-                "typo3/cms-core": "<8.7.55|>=9,<9.5.44|>=10,<10.4.41|>=11,<11.5.33|>=12,<12.4.8",
+                "typo3/cms-core": "<=8.7.56|>=9,<=9.5.45|>=10,<=10.4.42|>=11,<=11.5.34|>=12,<=12.4.10|==13",
                 "typo3/cms-extbase": "<6.2.24|>=7,<7.6.8|==8.1.1",
                 "typo3/cms-fluid": "<4.3.4|>=4.4,<4.4.1",
                 "typo3/cms-form": ">=8,<=8.7.39|>=9,<=9.5.24|>=10,<=10.4.13|>=11,<=11.1",
                 "typo3/cms-frontend": "<4.3.9|>=4.4,<4.4.5",
                 "typo3/cms-install": "<4.1.14|>=4.2,<4.2.16|>=4.3,<4.3.9|>=4.4,<4.4.5|>=12.2,<12.4.8",
                 "typo3/cms-rte-ckeditor": ">=9.5,<9.5.42|>=10,<10.4.39|>=11,<11.5.30",
-                "typo3/cms-saltedpasswords": "<0.2.13",
                 "typo3/flow": ">=1,<1.0.4|>=1.1,<1.1.1|>=2,<2.0.1|>=2.3,<2.3.16|>=3,<3.0.12|>=3.1,<3.1.10|>=3.2,<3.2.13|>=3.3,<3.3.13|>=4,<4.0.6",
                 "typo3/html-sanitizer": ">=1,<=1.5.2|>=2,<=2.1.3",
                 "typo3/neos": ">=1.1,<1.1.3|>=1.2,<1.2.13|>=2,<2.0.4|>=2.3,<2.3.99|>=3,<3.0.20|>=3.1,<3.1.18|>=3.2,<3.2.14|>=3.3,<3.3.23|>=4,<4.0.17|>=4.1,<4.1.16|>=4.2,<4.2.12|>=4.3,<4.3.3",
@@ -3148,6 +3147,7 @@
                 "yikesinc/yikes-inc-easy-mailchimp-extender": "<6.8.6",
                 "yoast-seo-for-typo3/yoast_seo": "<7.2.3",
                 "yourls/yourls": "<=1.8.2",
+                "yuan1994/tpadmin": "<=1.3.12",
                 "zencart/zencart": "<=1.5.7.0-beta",
                 "zendesk/zendesk_api_client_php": "<2.2.11",
                 "zendframework/zend-cache": ">=2.4,<2.4.8|>=2.5,<2.5.3",
@@ -3222,7 +3222,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-09T23:04:23+00:00"
+            "time": "2024-02-14T16:04:39+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
@@ -3309,8 +3309,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "smcothrift/donation-manager": 20,
-        "roave/security-advisories": 20,
-        "mwender/htmx-api-wp": 20
+        "mwender/htmx-api-wp": 20,
+        "roave/security-advisories": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -3318,5 +3318,5 @@
         "php": ">=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
