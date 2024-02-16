@@ -91,12 +91,12 @@
     "yoast/wordpress-seo-premium": "^21.8",
     "wenmark/dynamic-content-for-elementor": "^2.12",
     "wpackagist-plugin/advanced-access-manager": "^6.9",
-    "wenmark/gravityperks": "^2.3",
-    "mwender/htmx-api-wp": "^0.1.7"
+    "wenmark/gravityperks": "^2.3"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
-    "roave/security-advisories": "dev-latest"
+    "roave/security-advisories": "dev-latest",
+    "mwender/htmx-api-wp": "dev-main"
   },
   "config": {
     "optimize-autoloader": true,
