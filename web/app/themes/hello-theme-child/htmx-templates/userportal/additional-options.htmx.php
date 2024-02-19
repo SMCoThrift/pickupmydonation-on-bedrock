@@ -18,6 +18,7 @@ $form_data = donationmanager\users\get_additional_options_form_data();
 <form id="org-options" name="user-options" hx-post="/wp-htmx/v1/userportal/additional-options?action=edit"
       hx-target="#org-options" hx-swap="outerHTML"
       class="b-additional-options-form">
+    <div class="b-additional-options-groups">
     <?php
     foreach ($form_data['elements'] as $element) {
         ?>
@@ -41,5 +42,6 @@ $form_data = donationmanager\users\get_additional_options_form_data();
         <?php
     }
     ?>
-    <button type="submit">Submit</button>
+    </div>
+    <button type="submit">Save</button>
 </form>
