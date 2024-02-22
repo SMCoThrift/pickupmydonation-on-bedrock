@@ -22,23 +22,26 @@ $form_data = donationmanager\users\get_additional_options_form_data();
     <?php
     foreach ($form_data['elements'] as $element) {
         ?>
-        <fieldset class="b-default-options">
-            <legend class="b-default-options__legend"><?= esc_html($element['label']); ?></legend>
-            <?php
-            foreach ($element['options'] as $id => $option) {
-                ?>
-                <div class="b-default-options__item">
-                    <input type="checkbox" id="t-<?php echo esc_attr($id); ?>" value="<?= esc_attr($option['term']->term_id); ?>"
-                           name="<?= esc_attr($element['name']); ?>[]"
-                           class="b-default-options__checkbox" <?= $option['checked'] ? 'checked' : '' ?>>
-                    <label for="t-<?= esc_attr($id); ?>"
-                           class="b-default-options__label"><?= esc_html($option['term']->name); ?></label>
-                    <p class="b-default-options__description"><?= esc_html($option['term']->description); ?></p>
-                </div>
-                <?php
-            }
-            ?>
-        </fieldset>
+            <div class="b-default-options-wrapper">
+                <div class="b-default-options__legend"><?= esc_html($element['label']); ?></div>
+                <p></p>
+                <fieldset class="b-default-options">
+                    <?php
+                    foreach ($element['options'] as $id => $option) {
+                        ?>
+                        <div class="b-default-options__item">
+                            <input type="checkbox" id="t-<?php echo esc_attr($id); ?>" value="<?= esc_attr($option['term']->term_id); ?>"
+                                   name="<?= esc_attr($element['name']); ?>[]"
+                                   class="b-default-options__checkbox" <?= $option['checked'] ? 'checked' : '' ?>>
+                            <label for="t-<?= esc_attr($id); ?>"
+                                   class="b-default-options__label"><?= esc_html($option['term']->name); ?></label>
+                            <p class="b-default-options__description"><?= esc_html($option['term']->description); ?></p>
+                        </div>
+                        <?php
+                    }
+                    ?>
+                </fieldset>
+            </div>
         <?php
     }
     ?>
