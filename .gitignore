@@ -12,6 +12,7 @@ sql/
 auth.json
 public/
 *.sublime-*
+movefile.yml
 
 # WordPress
 web/wp
