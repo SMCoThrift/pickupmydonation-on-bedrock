@@ -24,8 +24,8 @@ $form_data = donationmanager\users\get_additional_options_form_data();
         ?>
             <div class="b-default-options-wrapper">
                 <div class="b-default-options__legend"><?= esc_html($element['label']); ?></div>
-                <p></p>
                 <fieldset class="b-default-options">
+                    <p><?= esc_html($element['description']); ?></p>
                     <?php
                     foreach ($element['options'] as $id => $option) {
                         ?>
