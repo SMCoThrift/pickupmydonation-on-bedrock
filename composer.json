@@ -80,8 +80,6 @@
     "gravityforms/gravityformsadvancedpostcreation": "^1.4",
     "gravityforms/gravityformscoupons": "^3.3",
     "gravityforms/gravityformsstripe": "^5.4",
-    "blackbricksoftware/composer-gravitywiz": "^1.0",
-    "gravitywiz/gp-ecommerce-fields": "^1.2",
     "wpackagist-plugin/instant-css": "^1.2",
     "wpackagist-plugin/jetpack": "^13",
     "wpackagist-plugin/redirection": "^5.4",
@@ -92,7 +90,8 @@
     "wenmark/dynamic-content-for-elementor": "^2.12",
     "wpackagist-plugin/advanced-access-manager": "^6.9",
     "wenmark/gravityperks": "^2.3",
-    "mwender/htmx-api-wp": "dev-main"
+    "mwender/htmx-api-wp": "dev-main",
+    "wenmark/gp-ecommerce-fields": "^1.2"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
@@ -104,8 +103,7 @@
     "allow-plugins": {
       "composer/installers": true,
       "roots/wordpress-core-installer": true,
-      "piotrpress/composer-gravityforms": true,
-      "blackbricksoftware/composer-gravitywiz": true
+      "piotrpress/composer-gravityforms": true
     }
   },
   "minimum-stability": "dev",
