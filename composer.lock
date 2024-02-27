@@ -1157,12 +1157,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "5a2bfaced1999cb3d29f2d54e2c38c85fea0e4b7"
+                "reference": "35aedebee3776e5d6fec02880e8f2947e7bfc0db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/5a2bfaced1999cb3d29f2d54e2c38c85fea0e4b7",
-                "reference": "5a2bfaced1999cb3d29f2d54e2c38c85fea0e4b7",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/35aedebee3776e5d6fec02880e8f2947e7bfc0db",
+                "reference": "35aedebee3776e5d6fec02880e8f2947e7bfc0db",
                 "shasum": ""
             },
             "require": {
@@ -1190,7 +1190,7 @@
                 "source": "https://github.com/SMCoThrift/donation-manager/tree/develop",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-02-27T15:50:28+00:00"
+            "time": "2024-02-27T21:25:27+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1437,12 +1437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TCattd/HTMX-API-WP.git",
-                "reference": "59711799e56f76c8199ed0c9cc21a55f0d795b71"
+                "reference": "f4d8e08c1e9251a942393a4fbd5bc123196eb918"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TCattd/HTMX-API-WP/zipball/59711799e56f76c8199ed0c9cc21a55f0d795b71",
-                "reference": "59711799e56f76c8199ed0c9cc21a55f0d795b71",
+                "url": "https://api.github.com/repos/TCattd/HTMX-API-WP/zipball/f4d8e08c1e9251a942393a4fbd5bc123196eb918",
+                "reference": "f4d8e08c1e9251a942393a4fbd5bc123196eb918",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1471,7 @@
                 "source": "https://github.com/TCattd/HTMX-API-WP/tree/main",
                 "issues": "https://github.com/TCattd/HTMX-API-WP/issues"
             },
-            "time": "2024-02-22T20:51:31+00:00"
+            "time": "2024-02-27T17:46:16+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
