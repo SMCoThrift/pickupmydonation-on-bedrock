@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d71829fc8b34d031310a69c83aaa57dd",
+    "content-hash": "57ea6d4bb25c79f74dc6c9ac9c714117",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1559,11 +1559,11 @@
         },
         {
             "name": "wenmark/dynamic-content-for-elementor",
-            "version": "2.12.7",
+            "version": "2.13.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/dynamic-content-for-elementor/2.12.7",
-                "shasum": "f536520a462485211d96ea3ea8edcf9b6e3b0a01"
+                "url": "https://packages.wenmarkdigital.com/satispress/dynamic-content-for-elementor/2.13.0",
+                "shasum": "e02592cbf40644c675182b738d5a9deb01b13e35"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1578,11 +1578,11 @@
         },
         {
             "name": "wenmark/elementor-pro",
-            "version": "3.19.2",
+            "version": "3.19.3",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.19.2",
-                "shasum": "26f3fe688a177e8ae60c4e168824165c82d3ec2c"
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.19.3",
+                "shasum": "e7eeb1f4cd2fe085575f847fd2cf98ba15e3523a"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2072,10 +2072,10 @@
         },
         {
             "name": "wpengine/advanced-custom-fields-pro",
-            "version": "6.2.6.1",
+            "version": "6.2.7",
             "dist": {
                 "type": "zip",
-                "url": "https://connect.advancedcustomfields.com/v2/plugins/composer_download?p=pro&t=6.2.6.1"
+                "url": "https://connect.advancedcustomfields.com/v2/plugins/composer_download?p=pro&t=6.2.7"
             },
             "require": {
                 "composer/installers": "~1.0 || ~2.0"
@@ -2087,17 +2087,17 @@
         },
         {
             "name": "yoast/wordpress-seo",
-            "version": "21.9.1",
+            "version": "22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Yoast-dist/wordpress-seo.git",
-                "reference": "e865ec16d9bc39eed7413ae3b4e355ebb8aad4fc"
+                "reference": "2b76a34e4289ed777faf38e09e71c0660719f389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo/yoast-wordpress-seo-e865ec16d9bc39eed7413ae3b4e355ebb8aad4fc-zip-701b75.zip",
-                "reference": "e865ec16d9bc39eed7413ae3b4e355ebb8aad4fc",
-                "shasum": "112a9eb6eb2c6a69c34814e0f1fbbc2bcffa1a85"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo/yoast-wordpress-seo-2b76a34e4289ed777faf38e09e71c0660719f389-zip-ede60d.zip",
+                "reference": "2b76a34e4289ed777faf38e09e71c0660719f389",
+                "shasum": "6ac529be4c11dec291172b5194005c3b964a6b29"
             },
             "require": {
                 "composer/installers": "^1.12 || ^2.0",
@@ -2157,8 +2157,8 @@
                     "Yoast\\WP\\SEO\\Composer\\Actions::check_coding_standards"
                 ],
                 "check-cs-thresholds": [
-                    "@putenv YOASTCS_THRESHOLD_ERRORS=2711",
-                    "@putenv YOASTCS_THRESHOLD_WARNINGS=297",
+                    "@putenv YOASTCS_THRESHOLD_ERRORS=2625",
+                    "@putenv YOASTCS_THRESHOLD_WARNINGS=294",
                     "Yoast\\WP\\SEO\\Composer\\Actions::check_cs_thresholds"
                 ],
                 "check-cs": [
@@ -2255,26 +2255,26 @@
                 "source": "https://github.com/Yoast/wordpress-seo",
                 "security": "https://yoast.com/security-program/"
             },
-            "time": "2024-01-25T10:14:47+00:00"
+            "time": "2024-02-20T09:24:04+00:00"
         },
         {
             "name": "yoast/wordpress-seo-premium",
-            "version": "21.9",
+            "version": "22.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Yoast-dist/wordpress-seo-premium.git",
-                "reference": "325453c977718e1fc2e89d1670d337c03888dfcd"
+                "reference": "153978e84ac700748ccc1751f04f9e74c89b772c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-325453c977718e1fc2e89d1670d337c03888dfcd-zip-31fd58.zip",
-                "reference": "325453c977718e1fc2e89d1670d337c03888dfcd",
-                "shasum": "23d1c4b6ee7b37323cb34db3cd6552f52ca7902b"
+                "url": "https://my.yoast.com/packages/dist/yoast/wordpress-seo-premium/yoast-wordpress-seo-premium-153978e84ac700748ccc1751f04f9e74c89b772c-zip-89ad79.zip",
+                "reference": "153978e84ac700748ccc1751f04f9e74c89b772c",
+                "shasum": "4dfe983bc0926ad19857b2955473c7ad59892853"
             },
             "require": {
                 "ext-filter": "*",
                 "php": "^7.2.5 || ^8.0",
-                "yoast/wordpress-seo": "^21.9"
+                "yoast/wordpress-seo": "^22.1"
             },
             "require-dev": {
                 "yoast/wp-test-utils": "^1.2",
@@ -2326,8 +2326,8 @@
                     "Yoast\\WP\\SEO\\Premium\\Config\\Composer\\Actions::check_coding_standards"
                 ],
                 "check-cs-thresholds": [
-                    "@putenv YOASTCS_THRESHOLD_ERRORS=734",
-                    "@putenv YOASTCS_THRESHOLD_WARNINGS=78",
+                    "@putenv YOASTCS_THRESHOLD_ERRORS=703",
+                    "@putenv YOASTCS_THRESHOLD_WARNINGS=76",
                     "Yoast\\WP\\SEO\\Premium\\Config\\Composer\\Actions::check_cs_thresholds"
                 ],
                 "check-cs": [
@@ -2399,7 +2399,7 @@
                 "source": "https://github.com/Yoast/wordpress-seo-premium",
                 "security": "https://yoast.com/security-program/"
             },
-            "time": "2024-01-23T09:24:51+00:00"
+            "time": "2024-02-20T10:21:55+00:00"
         },
         {
             "name": "zordius/lightncandy",
@@ -2465,12 +2465,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "aafb7236bf0c11b93b24e951544bd83470b85bec"
+                "reference": "de4aeda76503091f0d7b6f8a493f87994d6736a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/aafb7236bf0c11b93b24e951544bd83470b85bec",
-                "reference": "aafb7236bf0c11b93b24e951544bd83470b85bec",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/de4aeda76503091f0d7b6f8a493f87994d6736a9",
+                "reference": "de4aeda76503091f0d7b6f8a493f87994d6736a9",
                 "shasum": ""
             },
             "conflict": {
@@ -2662,7 +2662,7 @@
                 "gaoming13/wechat-php-sdk": "<=1.10.2",
                 "genix/cms": "<=1.1.11",
                 "getgrav/grav": "<1.7.44",
-                "getkirby/cms": "<3.5.8.3-dev|>=3.6,<3.6.6.3-dev|>=3.7,<3.7.5.2-dev|>=3.8,<3.8.4.1-dev|>=3.9,<3.9.6",
+                "getkirby/cms": "<4.1.1",
                 "getkirby/kirby": "<=2.5.12",
                 "getkirby/panel": "<2.5.14",
                 "getkirby/starterkit": "<=3.7.0.2",
@@ -3197,7 +3197,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-23T16:04:25+00:00"
+            "time": "2024-02-26T23:04:41+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
