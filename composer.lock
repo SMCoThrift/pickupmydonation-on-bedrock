@@ -1157,12 +1157,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "4b54d150715bbdf3cd5467253c1eeed0fe1ab9ec"
+                "reference": "9fd5d6fd6b9c9fe6e0738f24c20f1561178d1a36"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/4b54d150715bbdf3cd5467253c1eeed0fe1ab9ec",
-                "reference": "4b54d150715bbdf3cd5467253c1eeed0fe1ab9ec",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/9fd5d6fd6b9c9fe6e0738f24c20f1561178d1a36",
+                "reference": "9fd5d6fd6b9c9fe6e0738f24c20f1561178d1a36",
                 "shasum": ""
             },
             "require": {
@@ -1190,7 +1190,7 @@
                 "source": "https://github.com/SMCoThrift/donation-manager/tree/develop",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-02-28T20:14:01+00:00"
+            "time": "2024-02-28T20:21:53+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
