@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /wp/wp-admin/
+Disallow:/ *.jpg$
+Disallow:/ *.gif$
+Sitemap: https://www.pickupmydonation.com/sitemap_index.xml
+
+#WP Import Export Rule
+User-agent: *
+Disallow: /app/uploads/wp-import-export-lite/
