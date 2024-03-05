@@ -1153,16 +1153,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "4.3.0",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "86b72766bd7103575845e824284a8fc18d98882c"
+                "reference": "997c1a8ea1e8f0e206bb4bef2db29dc427945784"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/86b72766bd7103575845e824284a8fc18d98882c",
-                "reference": "86b72766bd7103575845e824284a8fc18d98882c",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/997c1a8ea1e8f0e206bb4bef2db29dc427945784",
+                "reference": "997c1a8ea1e8f0e206bb4bef2db29dc427945784",
                 "shasum": ""
             },
             "require": {
@@ -1187,10 +1187,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.3.0",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.3.1",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-03-05T14:24:43+00:00"
+            "time": "2024-03-05T18:39:00+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2465,12 +2465,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "da77e3d08db7ecddce118186977b21d04149b2f9"
+                "reference": "f55d0680d4af9e99a48d9a545863b670f6a0e53e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/da77e3d08db7ecddce118186977b21d04149b2f9",
-                "reference": "da77e3d08db7ecddce118186977b21d04149b2f9",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f55d0680d4af9e99a48d9a545863b670f6a0e53e",
+                "reference": "f55d0680d4af9e99a48d9a545863b670f6a0e53e",
                 "shasum": ""
             },
             "conflict": {
@@ -3197,7 +3197,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-04T21:04:58+00:00"
+            "time": "2024-03-05T16:04:58+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
