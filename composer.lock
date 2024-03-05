@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acf107994450ae0ef32a91b4386788d6",
+    "content-hash": "f05fe42b41d5268691f8104a6c0ff78f",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1153,16 +1153,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "4.3.1",
+            "version": "4.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "997c1a8ea1e8f0e206bb4bef2db29dc427945784"
+                "reference": "3ed9d73d88a808694d4024e243ddc1c08f304af6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/997c1a8ea1e8f0e206bb4bef2db29dc427945784",
-                "reference": "997c1a8ea1e8f0e206bb4bef2db29dc427945784",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/3ed9d73d88a808694d4024e243ddc1c08f304af6",
+                "reference": "3ed9d73d88a808694d4024e243ddc1c08f304af6",
                 "shasum": ""
             },
             "require": {
@@ -1187,10 +1187,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.3.1",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.4.0",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-03-05T18:39:00+00:00"
+            "time": "2024-03-05T22:07:41+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1747,24 +1747,6 @@
             "homepage": "https://wordpress.org/plugins/acf-extended/"
         },
         {
-            "name": "wpackagist-plugin/advanced-access-manager",
-            "version": "6.9.23",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/advanced-access-manager/",
-                "reference": "tags/6.9.23"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-access-manager.6.9.23.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/advanced-access-manager/"
-        },
-        {
             "name": "wpackagist-plugin/akismet",
             "version": "5.3.1",
             "source": {
@@ -2131,12 +2113,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "f55d0680d4af9e99a48d9a545863b670f6a0e53e"
+                "reference": "5e00628ceaa787ae9459f0b6a9320b2b7953d7f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/f55d0680d4af9e99a48d9a545863b670f6a0e53e",
-                "reference": "f55d0680d4af9e99a48d9a545863b670f6a0e53e",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5e00628ceaa787ae9459f0b6a9320b2b7953d7f0",
+                "reference": "5e00628ceaa787ae9459f0b6a9320b2b7953d7f0",
                 "shasum": ""
             },
             "conflict": {
@@ -2863,7 +2845,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-05T16:04:58+00:00"
+            "time": "2024-03-05T22:04:04+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",

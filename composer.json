@@ -85,7 +85,6 @@
     "wpackagist-plugin/simple-page-ordering": "^2.6",
     "wpackagist-plugin/duplicate-post": "^4.5",
     "wenmark/dynamic-content-for-elementor": "^2",
-    "wpackagist-plugin/advanced-access-manager": "^6.9",
     "wenmark/gravityperks": "^2.3",
     "wenmark/gp-ecommerce-fields": "^1.2",
     "tcattd/htmx-api-wp": "dev-main"
