@@ -87,7 +87,8 @@
     "wenmark/dynamic-content-for-elementor": "^2",
     "wenmark/gravityperks": "^2.3",
     "wenmark/gp-ecommerce-fields": "^1.2",
-    "tcattd/htmx-api-wp": "dev-main"
+    "tcattd/htmx-api-wp": "dev-main",
+    "wpackagist-plugin/wp-mail-smtp": "^4.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
