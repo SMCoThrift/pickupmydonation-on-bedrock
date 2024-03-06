@@ -1153,16 +1153,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "4.4.3",
+            "version": "4.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "e75ba50028138cad029754316aa8848f3694f037"
+                "reference": "214589ed91d3713f3b0454bbe4b7632e14011536"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/e75ba50028138cad029754316aa8848f3694f037",
-                "reference": "e75ba50028138cad029754316aa8848f3694f037",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/214589ed91d3713f3b0454bbe4b7632e14011536",
+                "reference": "214589ed91d3713f3b0454bbe4b7632e14011536",
                 "shasum": ""
             },
             "require": {
@@ -1187,10 +1187,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.4.3",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.4.4",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-03-06T00:01:48+00:00"
+            "time": "2024-03-06T10:30:36+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2131,12 +2131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "5e00628ceaa787ae9459f0b6a9320b2b7953d7f0"
+                "reference": "d274b254c11703dd563ada7cae1d93a0a8384a0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/5e00628ceaa787ae9459f0b6a9320b2b7953d7f0",
-                "reference": "5e00628ceaa787ae9459f0b6a9320b2b7953d7f0",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/d274b254c11703dd563ada7cae1d93a0a8384a0a",
+                "reference": "d274b254c11703dd563ada7cae1d93a0a8384a0a",
                 "shasum": ""
             },
             "conflict": {
@@ -2288,7 +2288,7 @@
                 "ezsystems/ezplatform-solr-search-engine": ">=1.7,<1.7.12|>=2,<2.0.2|>=3.3,<3.3.15",
                 "ezsystems/ezplatform-user": ">=1,<1.0.1",
                 "ezsystems/ezpublish-kernel": "<6.13.8.2-dev|>=7,<7.5.31",
-                "ezsystems/ezpublish-legacy": "<=2017.12.7.3|>=2018.6,<=2019.03.5.1",
+                "ezsystems/ezpublish-legacy": "<=2017.12.7.3|>=2018.06,<=2019.03.5.1",
                 "ezsystems/platform-ui-assets-bundle": ">=4.2,<4.2.3",
                 "ezsystems/repository-forms": ">=2.3,<2.3.2.1-dev|>=2.5,<2.5.15",
                 "ezyang/htmlpurifier": "<4.1.1",
@@ -2863,7 +2863,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-05T22:04:04+00:00"
+            "time": "2024-03-06T10:04:27+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
