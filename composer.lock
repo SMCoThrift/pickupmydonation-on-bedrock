@@ -1153,16 +1153,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "4.4.4.2",
+            "version": "4.4.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "6569e2ea147299efddc3675dc31c8b2db98782a1"
+                "reference": "7f7227129cbfddb37df2ef180e5635615ae3aceb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/6569e2ea147299efddc3675dc31c8b2db98782a1",
-                "reference": "6569e2ea147299efddc3675dc31c8b2db98782a1",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/7f7227129cbfddb37df2ef180e5635615ae3aceb",
+                "reference": "7f7227129cbfddb37df2ef180e5635615ae3aceb",
                 "shasum": ""
             },
             "require": {
@@ -1187,10 +1187,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.4.4.2",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.4.4.3",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-03-06T14:35:20+00:00"
+            "time": "2024-03-08T17:20:42+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1437,12 +1437,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/TCattd/HTMX-API-WP.git",
-                "reference": "f4d8e08c1e9251a942393a4fbd5bc123196eb918"
+                "reference": "f5fb9444cb2c5ed12e7d0d9fda391846dde123cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TCattd/HTMX-API-WP/zipball/f4d8e08c1e9251a942393a4fbd5bc123196eb918",
-                "reference": "f4d8e08c1e9251a942393a4fbd5bc123196eb918",
+                "url": "https://api.github.com/repos/TCattd/HTMX-API-WP/zipball/f5fb9444cb2c5ed12e7d0d9fda391846dde123cb",
+                "reference": "f5fb9444cb2c5ed12e7d0d9fda391846dde123cb",
                 "shasum": ""
             },
             "require": {
@@ -1471,7 +1471,7 @@
                 "source": "https://github.com/TCattd/HTMX-API-WP/tree/main",
                 "issues": "https://github.com/TCattd/HTMX-API-WP/issues"
             },
-            "time": "2024-02-27T17:46:16+00:00"
+            "time": "2024-03-06T19:37:09+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -1616,11 +1616,11 @@
         },
         {
             "name": "wenmark/gravityforms",
-            "version": "2.8.4",
+            "version": "2.8.5",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.8.4",
-                "shasum": "7649fd4b5cd0c34019d49a45c3082e4c9f0659c4"
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityforms/2.8.5",
+                "shasum": "a847655d2f42e2420bb922e5c869f2b65e5b90e4"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2131,12 +2131,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "99e839ca6de37f798b58d9830e6d21d642d27dcd"
+                "reference": "83b3589bb774f27084c7f358c13f465d94afa036"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/99e839ca6de37f798b58d9830e6d21d642d27dcd",
-                "reference": "99e839ca6de37f798b58d9830e6d21d642d27dcd",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/83b3589bb774f27084c7f358c13f465d94afa036",
+                "reference": "83b3589bb774f27084c7f358c13f465d94afa036",
                 "shasum": ""
             },
             "conflict": {
@@ -2219,7 +2219,7 @@
                 "codeigniter4/shield": "<1.0.0.0-beta8",
                 "codiad/codiad": "<=2.8.4",
                 "composer/composer": "<1.10.27|>=2,<2.2.23|>=2.3,<2.7",
-                "concrete5/concrete5": "<9.2.5",
+                "concrete5/concrete5": "<9.2.7",
                 "concrete5/core": "<8.5.8|>=9,<9.1",
                 "contao-components/mediaelement": ">=2.14.2,<2.21.1",
                 "contao/contao": ">=4,<4.4.56|>=4.5,<4.9.40|>=4.10,<4.11.7|>=4.13,<4.13.21|>=5.1,<5.1.4",
@@ -2288,7 +2288,7 @@
                 "ezsystems/ezplatform-solr-search-engine": ">=1.7,<1.7.12|>=2,<2.0.2|>=3.3,<3.3.15",
                 "ezsystems/ezplatform-user": ">=1,<1.0.1",
                 "ezsystems/ezpublish-kernel": "<6.13.8.2-dev|>=7,<7.5.31",
-                "ezsystems/ezpublish-legacy": "<=2017.12.7.3|>=2018.6,<=2019.03.5.1",
+                "ezsystems/ezpublish-legacy": "<=2017.12.7.3|>=2018.06,<=2019.03.5.1",
                 "ezsystems/platform-ui-assets-bundle": ">=4.2,<4.2.3",
                 "ezsystems/repository-forms": ">=2.3,<2.3.2.1-dev|>=2.5,<2.5.15",
                 "ezyang/htmlpurifier": "<4.1.1",
@@ -2548,7 +2548,7 @@
                 "pixelfed/pixelfed": "<0.11.11",
                 "plotly/plotly.js": "<2.25.2",
                 "pocketmine/bedrock-protocol": "<8.0.2",
-                "pocketmine/pocketmine-mp": "<=4.23|>=5,<5.3.1",
+                "pocketmine/pocketmine-mp": "<5.11.2",
                 "pocketmine/raklib": ">=0.14,<0.14.6|>=0.15,<0.15.1",
                 "pressbooks/pressbooks": "<5.18",
                 "prestashop/autoupgrade": ">=4,<4.10.1",
@@ -2597,10 +2597,10 @@
                 "sfroemken/url_redirect": "<=1.2.1",
                 "sheng/yiicms": "<=1.2",
                 "shopware/core": "<=6.5.7.3",
-                "shopware/platform": "<=6.5.7.3",
+                "shopware/platform": "<=6.5.7.3|>=6.5.8,<6.5.8.7-dev",
                 "shopware/production": "<=6.3.5.2",
                 "shopware/shopware": "<=5.7.17",
-                "shopware/storefront": "<=6.4.8.1",
+                "shopware/storefront": "<=6.4.8.1|>=6.5.8,<6.5.8.7-dev",
                 "shopxo/shopxo": "<2.2.6",
                 "showdoc/showdoc": "<2.10.4",
                 "silverstripe-australia/advancedreports": ">=1,<=2",
@@ -2669,7 +2669,7 @@
                 "symfony/dependency-injection": ">=2,<2.0.17|>=2.7,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7",
                 "symfony/error-handler": ">=4.4,<4.4.4|>=5,<5.0.4",
                 "symfony/form": ">=2.3,<2.3.35|>=2.4,<2.6.12|>=2.7,<2.7.50|>=2.8,<2.8.49|>=3,<3.4.20|>=4,<4.0.15|>=4.1,<4.1.9|>=4.2,<4.2.1",
-                "symfony/framework-bundle": ">=2,<2.3.18|>=2.4,<2.4.8|>=2.5,<2.5.2|>=2.7,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7|>=5.3.14,<=5.3.14|>=5.4.3,<=5.4.3|>=6.0.3,<=6.0.3",
+                "symfony/framework-bundle": ">=2,<2.3.18|>=2.4,<2.4.8|>=2.5,<2.5.2|>=2.7,<2.7.51|>=2.8,<2.8.50|>=3,<3.4.26|>=4,<4.1.12|>=4.2,<4.2.7|>=5.3.14,<5.3.15|>=5.4.3,<5.4.4|>=6.0.3,<6.0.4",
                 "symfony/http-foundation": ">=2,<2.8.52|>=3,<3.4.35|>=4,<4.2.12|>=4.3,<4.3.8|>=4.4,<4.4.7|>=5,<5.0.7",
                 "symfony/http-kernel": ">=2,<4.4.50|>=5,<5.4.20|>=6,<6.0.20|>=6.1,<6.1.12|>=6.2,<6.2.6",
                 "symfony/intl": ">=2.7,<2.7.38|>=2.8,<2.8.31|>=3,<3.2.14|>=3.3,<3.3.13",
@@ -2863,7 +2863,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-06T11:04:30+00:00"
+            "time": "2024-03-08T12:05:25+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
