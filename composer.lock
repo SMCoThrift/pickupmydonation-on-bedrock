@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "518efca4185050996e614326884fab73",
+    "content-hash": "561845b5ead7bcbbce0fdb6d1dedf4ec",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1729,6 +1729,25 @@
             "homepage": "https://solidwp.com/security"
         },
         {
+            "name": "wenmark/wp-mail-smtp-pro",
+            "version": "4.0.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/wp-mail-smtp-pro/4.0.2",
+                "shasum": "8447495889c25d25c6af9ef209b4d686c8237d0f"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": {
+                "name": "WP Mail SMTP",
+                "homepage": "https://wpmailsmtp.com/"
+            },
+            "description": "Reconfigures the <code>wp_mail()</code> function to use Gmail/Mailgun/SendGrid/SMTP instead of the default <code>mail()</code> and creates an options page to manage the settings.",
+            "homepage": "https://wpmailsmtp.com/"
+        },
+        {
             "name": "wpackagist-plugin/acf-extended",
             "version": "0.8.9.5",
             "source": {
@@ -1997,24 +2016,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/spinupwp/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-mail-smtp",
-            "version": "4.0.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-mail-smtp/",
-                "reference": "tags/4.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.4.0.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         },
         {
             "name": "wpackagist-theme/hello-elementor",
