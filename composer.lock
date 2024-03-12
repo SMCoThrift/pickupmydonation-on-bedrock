@@ -58,16 +58,16 @@
         },
         {
             "name": "collizo4sky/persist-admin-notices-dismissal",
-            "version": "1.4.4",
+            "version": "1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/w3guy/persist-admin-notices-dismissal.git",
-                "reference": "900739eb6b0ec0210465f5983a6d4e0e420289e4"
+                "reference": "163b868c98cf97ea15b4d7e1305e2d52c9242e7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/w3guy/persist-admin-notices-dismissal/zipball/900739eb6b0ec0210465f5983a6d4e0e420289e4",
-                "reference": "900739eb6b0ec0210465f5983a6d4e0e420289e4",
+                "url": "https://api.github.com/repos/w3guy/persist-admin-notices-dismissal/zipball/163b868c98cf97ea15b4d7e1305e2d52c9242e7e",
+                "reference": "163b868c98cf97ea15b4d7e1305e2d52c9242e7e",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,7 @@
                 "issues": "https://github.com/w3guy/persist-admin-notices-dismissal/issues",
                 "source": "https://github.com/w3guy/persist-admin-notices-dismissal"
             },
-            "time": "2020-12-31T17:12:37+00:00"
+            "time": "2024-03-10T15:11:42+00:00"
         },
         {
             "name": "composer/installers",
@@ -1153,16 +1153,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "4.4.4.4",
+            "version": "4.4.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "93eb8cb01c8a01bebccfe090874b76c442074cd5"
+                "reference": "5840996c52c531ab2b6c4b3571525eec91f1af33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/93eb8cb01c8a01bebccfe090874b76c442074cd5",
-                "reference": "93eb8cb01c8a01bebccfe090874b76c442074cd5",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/5840996c52c531ab2b6c4b3571525eec91f1af33",
+                "reference": "5840996c52c531ab2b6c4b3571525eec91f1af33",
                 "shasum": ""
             },
             "require": {
@@ -1187,10 +1187,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.4.4.4",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.4.4.5",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-03-08T20:57:37+00:00"
+            "time": "2024-03-12T16:03:02+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1875,15 +1875,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.19.4",
+            "version": "3.20.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.19.4"
+                "reference": "tags/3.20.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.19.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.20.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1947,15 +1947,15 @@
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts-reloaded",
-            "version": "2.26.6",
+            "version": "2.26.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/2.26.6"
+                "reference": "tags/2.26.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.26.6.zip"
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.26.7.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2132,12 +2132,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "83b3589bb774f27084c7f358c13f465d94afa036"
+                "reference": "c02629d91815a7c173f0b4ed4cb7d90eb37f5709"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/83b3589bb774f27084c7f358c13f465d94afa036",
-                "reference": "83b3589bb774f27084c7f358c13f465d94afa036",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/c02629d91815a7c173f0b4ed4cb7d90eb37f5709",
+                "reference": "c02629d91815a7c173f0b4ed4cb7d90eb37f5709",
                 "shasum": ""
             },
             "conflict": {
@@ -2581,7 +2581,7 @@
                 "react/http": ">=0.7,<1.9",
                 "really-simple-plugins/complianz-gdpr": "<6.4.2",
                 "redaxo/source": "<=5.15.1",
-                "remdex/livehelperchat": "<3.99",
+                "remdex/livehelperchat": "<4.29",
                 "reportico-web/reportico": "<=7.1.21",
                 "rhukster/dom-sanitizer": "<1.0.7",
                 "rmccue/requests": ">=1.6,<1.8",
@@ -2864,7 +2864,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-08T12:05:25+00:00"
+            "time": "2024-03-12T13:04:19+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
