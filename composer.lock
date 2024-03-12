@@ -1559,11 +1559,11 @@
         },
         {
             "name": "wenmark/dynamic-content-for-elementor",
-            "version": "2.13.2",
+            "version": "2.13.5",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/dynamic-content-for-elementor/2.13.2",
-                "shasum": "1530eea762b5a8953049747f5e0c41141c2a0790"
+                "url": "https://packages.wenmarkdigital.com/satispress/dynamic-content-for-elementor/2.13.5",
+                "shasum": "b5c3fb64172aaa5d27ee56fb97aab50917db1e2b"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
