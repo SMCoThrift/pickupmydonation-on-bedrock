@@ -15,6 +15,7 @@ public/
 movefile.yml
 web/*.sh
 eval-files/
+.idea/
 
 # WordPress
 web/wp
