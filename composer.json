@@ -88,7 +88,8 @@
     "wenmark/gravityperks": "^2.3",
     "wenmark/gp-ecommerce-fields": "^1.2",
     "tcattd/htmx-api-wp": "dev-main",
-    "wenmark/wp-mail-smtp-pro": "^4.0"
+    "wenmark/wp-mail-smtp-pro": "^4.0",
+    "wpackagist-plugin/google-sitemap-generator": "^4.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
