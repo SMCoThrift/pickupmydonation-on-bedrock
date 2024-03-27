@@ -16,6 +16,7 @@ movefile.yml
 web/*.sh
 eval-files/
 .idea/
+franchisee-map/
 
 # WordPress
 web/wp
