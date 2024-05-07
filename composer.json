@@ -74,7 +74,7 @@
     "wenmark/gravityforms": "^2",
     "wpengine/advanced-custom-fields-pro": "^6.2",
     "wenmark/ithemes-security-pro": "^8.2",
-    "wpackagist-plugin/acf-extended": "0.8.9.5",
+    "wpackagist-plugin/acf-extended": "^0.9",
     "wpackagist-plugin/akismet": "^5.3",
     "wpackagist-plugin/host-analyticsjs-local": "^4.7",
     "wpackagist-plugin/catch-ids": "^2.7",
