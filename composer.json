@@ -34,6 +34,7 @@
       "type": "composer",
       "url": "https://connect.advancedcustomfields.com"
     },
+    /*
     "donation-manager-local": {
       "type": "path",
       "url": "/Users/mwender/webdev/local-lightning/web2.pickupmydonation.com/donation-manager",
@@ -41,6 +42,7 @@
         "symlink": true
       }
     },
+    */
     "donation-manager-remote": {
       "type": "vcs",
       "url": "git@github.com:SMCoThrift/donation-manager.git"
