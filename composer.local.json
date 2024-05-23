@@ -1,0 +1,131 @@
+{
+  "name": "smcothrift/pmd-on-bedrock",
+  "type": "project",
+  "license": "MIT",
+  "description": "The PickUpMyDonation.com WordPress website",
+  "homepage": "https://pickupmydonation.com",
+  "authors": [
+    {
+      "name": "Michael Wender",
+      "email": "mwender@wenmarkdigital.com",
+      "homepage": "https://github.com/mwender"
+    }
+  ],
+  "repositories": {
+    "mwender": {
+      "type": "vcs",
+      "url": "https://github.com/mwender/php-form"
+    },
+    "my-yoast": {
+      "type": "composer",
+      "url": "https://my.yoast.com/packages/"
+    },
+    "0": {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    "1": {
+      "type": "composer",
+      "url": "https://packages.wenmarkdigital.com/satispress/",
+      "only": ["wenmark/*"]
+    },
+    "2": {
+      "type": "composer",
+      "url": "https://connect.advancedcustomfields.com"
+    },
+    "donation-manager-local": {
+      "type": "path",
+      "url": "/Users/mwender/webdev/local-lightning/web2.pickupmydonation.com/donation-manager",
+      "options": {
+        "symlink": true
+      }
+    },
+    /*
+    "donation-manager-remote": {
+      "type": "vcs",
+      "url": "git@github.com:SMCoThrift/donation-manager.git"
+    },
+    */
+    "4": {
+      "type": "vcs",
+      "url": "git@github.com:mwender/cloudinary_php.git"
+    },
+    "5": {
+      "type": "vcs",
+      "url": "git@github.com:tcattd/htmx-api-wp.git"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "composer/installers": "^2.2",
+    "vlucas/phpdotenv": "^5.5",
+    "oscarotero/env": "^2.1",
+    "roots/bedrock-autoloader": "^1.0",
+    "roots/bedrock-disallow-indexing": "^2.0",
+    "roots/wordpress": "^6",
+    "roots/wp-config": "1.0.0",
+    "roots/wp-password-bcrypt": "1.1.0",
+    "wpackagist-theme/twentytwentyfour": "^1.0",
+    "lukasbesch/bedrock-plugin-disabler": "^1.4",
+    "wpackagist-plugin/spinupwp": "^1.5",
+    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.25",
+    "wenmark/elementor-pro": "^3",
+    "wpackagist-plugin/elementor": "^3.18",
+    "wpackagist-theme/hello-elementor": "^3",
+    "wenmark/gravityforms": "^2",
+    "wpengine/advanced-custom-fields-pro": "^6.2",
+    "wenmark/ithemes-security-pro": "^8.2",
+    "wpackagist-plugin/acf-extended": "^0.9",
+    "wpackagist-plugin/akismet": "^5.3",
+    "wpackagist-plugin/host-analyticsjs-local": "^4.7",
+    "wpackagist-plugin/catch-ids": "^2.7",
+    "wpackagist-plugin/custom-taxonomy-order-ne": "^4.0",
+    "wpackagist-plugin/default-featured-image": "^1.7",
+    "wpackagist-plugin/disable-gutenberg": "^3.1",
+    "piotrpress/composer-gravityforms": "^1.0",
+    "wenmark/gravityformsadvancedpostcreation": "^1.4",
+    "wenmark/gravityformscoupons": "^3.3",
+    "wenmark/gravityformsstripe": "^5.4",
+    "wpackagist-plugin/instant-css": "^1.2",
+    "wpackagist-plugin/jetpack": "^13",
+    "wpackagist-plugin/redirection": "^5.4",
+    "wpackagist-plugin/simple-page-ordering": "^2.6",
+    "wpackagist-plugin/duplicate-post": "^4.5",
+    "wenmark/dynamic-content-for-elementor": "^2",
+    "wenmark/gravityperks": "^2.3",
+    "wenmark/gp-ecommerce-fields": "^1.2",
+    "tcattd/htmx-api-wp": "dev-main",
+    "wenmark/wp-mail-smtp-pro": "^4.0",
+    "wpackagist-plugin/google-sitemap-generator": "^4.1",
+    "smcothrift/donation-manager": "dev-main"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.7.1",
+    "roave/security-advisories": "dev-latest"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "composer/installers": true,
+      "roots/wordpress-core-installer": true,
+      "piotrpress/composer-gravityforms": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "scripts": {
+    "test": [
+      "phpcs"
+    ]
+  }
+}
