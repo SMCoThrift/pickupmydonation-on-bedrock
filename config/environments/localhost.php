@@ -24,4 +24,5 @@ Config::define('DISABLED_PLUGINS', [
     'spinupwp/spinupwp.php',
     'limit-login-attempts-reloaded/limit-login-attempts-reloaded.php',
 	'jetpack/jetpack.php',
+    'wp-mail-smtp-pro/wp_mail_smtp.php',
 ]);
