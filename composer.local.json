@@ -41,12 +41,6 @@
         "symlink": true
       }
     },
-    /*
-    "donation-manager-remote": {
-      "type": "vcs",
-      "url": "git@github.com:SMCoThrift/donation-manager.git"
-    },
-    */
     "4": {
       "type": "vcs",
       "url": "git@github.com:mwender/cloudinary_php.git"
