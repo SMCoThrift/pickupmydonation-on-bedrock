@@ -89,7 +89,7 @@
     "tcattd/htmx-api-wp": "dev-main",
     "wenmark/wp-mail-smtp-pro": "^4.0",
     "wpackagist-plugin/google-sitemap-generator": "^4.1",
-    "smcothrift/donation-manager": "dev-main"
+    "smcothrift/donation-manager": "4.4.5.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",

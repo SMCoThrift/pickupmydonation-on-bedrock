@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "59f485cef2b58cec98eb77785e90f86e",
+    "content-hash": "2731368758d59a69947903506e476df2",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1154,16 +1154,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "dev-main",
+            "version": "4.4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "ee30b5a52a4c0a4c4ba0a5a912db70ac16a8eb40"
+                "reference": "aaaa4eb276b2cc6e0c27c0879ca7c1b1687d9327"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/ee30b5a52a4c0a4c4ba0a5a912db70ac16a8eb40",
-                "reference": "ee30b5a52a4c0a4c4ba0a5a912db70ac16a8eb40",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/aaaa4eb276b2cc6e0c27c0879ca7c1b1687d9327",
+                "reference": "aaaa4eb276b2cc6e0c27c0879ca7c1b1687d9327",
                 "shasum": ""
             },
             "require": {
@@ -1174,7 +1174,6 @@
                 "php": ">=8.0",
                 "zordius/lightncandy": "^1.2"
             },
-            "default-branch": true,
             "type": "wordpress-plugin",
             "license": [
                 "MIT"
@@ -1189,10 +1188,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.4.5",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.4.5.1",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-05-23T21:36:53+00:00"
+            "time": "2024-07-29T15:47:13+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3042,7 +3041,6 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "tcattd/htmx-api-wp": 20,
-        "smcothrift/donation-manager": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
