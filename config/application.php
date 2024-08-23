@@ -117,7 +117,8 @@ Config::define('CLOUDINARY_API_KEY', env('CLOUDINARY_API_KEY'));
 Config::define('CLOUDINARY_API_SECRET', env('CLOUDINARY_API_SECRET'));
 
 // Disable the plugin and theme file editor in the admin
-Config::define('DISALLOW_FILE_EDIT', true);
+// Commenting out for compat with iThemes Security:
+// Config::define('DISALLOW_FILE_EDIT', true);
 
 // Disable plugin and theme updates and installation from the admin
 Config::define('DISALLOW_FILE_MODS', true);
