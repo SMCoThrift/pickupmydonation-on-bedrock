@@ -41,10 +41,6 @@
     "4": {
       "type": "vcs",
       "url": "git@github.com:mwender/cloudinary_php.git"
-    },
-    "5": {
-      "type": "vcs",
-      "url": "git@github.com:tcattd/htmx-api-wp.git"
     }
   },
   "require": {
