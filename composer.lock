@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "99d06a6f32eb1eee2bf6ba2e53ba63de",
+    "content-hash": "67ac5c11bdf0eff6cf3de207175b5a9e",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1708,11 +1708,11 @@
         },
         {
             "name": "wenmark/wp-mail-smtp-pro",
-            "version": "4.0.2",
+            "version": "4.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/wp-mail-smtp-pro/4.0.2",
-                "shasum": "8447495889c25d25c6af9ef209b4d686c8237d0f"
+                "url": "https://packages.wenmarkdigital.com/satispress/wp-mail-smtp-pro/4.1.1",
+                "shasum": "cf2b38d2b6198e940e52cec479da634af26fd2fa"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
