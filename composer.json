@@ -79,7 +79,7 @@
     "wpackagist-plugin/redirection": "^5.4",
     "wpackagist-plugin/simple-page-ordering": "^2.6",
     "wpackagist-plugin/duplicate-post": "^4.5",
-    "wenmark/dynamic-content-for-elementor": "^2",
+    "wenmark/dynamic-content-for-elementor": "^3",
     "wenmark/gravityperks": "^2.3",
     "wenmark/gp-ecommerce-fields": "^1.2",
     "wenmark/wp-mail-smtp-pro": "^4.0",

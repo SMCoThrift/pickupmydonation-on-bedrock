@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67ac5c11bdf0eff6cf3de207175b5a9e",
+    "content-hash": "1445060c232dbc4086dbc385f24185f2",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1537,11 +1537,11 @@
         },
         {
             "name": "wenmark/dynamic-content-for-elementor",
-            "version": "2.13.9",
+            "version": "3.0.12",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/dynamic-content-for-elementor/2.13.9",
-                "shasum": "204864a502f0ae846e5e23d67a15946544915f6d"
+                "url": "https://packages.wenmarkdigital.com/satispress/dynamic-content-for-elementor/3.0.12",
+                "shasum": "11cd13d0179debb88d40d6f8691a75f8d7a68149"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
