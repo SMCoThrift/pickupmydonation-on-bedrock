@@ -115,6 +115,7 @@ Config::define('DM_GOOGLE_MAPS_API_KEY', env('DM_GOOGLE_MAPS_API_KEY'));
 Config::define('CLOUDINARY_CLOUD_NAME', env('CLOUDINARY_CLOUD_NAME'));
 Config::define('CLOUDINARY_API_KEY', env('CLOUDINARY_API_KEY'));
 Config::define('CLOUDINARY_API_SECRET', env('CLOUDINARY_API_SECRET'));
+Config::define('GOTJUNK_CLIENT_TOKEN', env('GOTJUNK_CLIENT_TOKEN') ?: false );
 
 // Disable the plugin and theme file editor in the admin
 // Commenting out for compat with iThemes Security:
