@@ -17,6 +17,7 @@ web/*.sh
 eval-files/
 .idea/
 franchisee-map/
+setup-donation-manager-for-dev.sh
 
 # WordPress
 web/wp
