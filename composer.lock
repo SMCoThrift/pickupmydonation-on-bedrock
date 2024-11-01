@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6b8da2718d2f92ed142890e6aa574bc4",
+    "content-hash": "83de2fc3aa21c7fd1cd63928648d2352",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1518,11 +1518,11 @@
         },
         {
             "name": "wenmark/analyticswp",
-            "version": "1.9.6",
+            "version": "1.10.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/analyticswp/1.9.6",
-                "shasum": "5731eb77576391b38210283c5528037ea27ab43b"
+                "url": "https://packages.wenmarkdigital.com/satispress/analyticswp/1.10.0",
+                "shasum": "1857f8f207564e6f82bc844f7252976dfb2c5af3"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1632,11 +1632,11 @@
         },
         {
             "name": "wenmark/gravityformscoupons",
-            "version": "3.3.0",
+            "version": "3.4.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gravityformscoupons/3.3.0",
-                "shasum": "87783649b70324bc41588250f11ac99a06fbb2bb"
+                "url": "https://packages.wenmarkdigital.com/satispress/gravityformscoupons/3.4.0",
+                "shasum": "bc03ace93d789254c09674d12b8b37f068aa73c3"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
