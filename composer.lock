@@ -1575,11 +1575,11 @@
         },
         {
             "name": "wenmark/gp-ecommerce-fields",
-            "version": "1.2.28",
+            "version": "1.2.29",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gp-ecommerce-fields/1.2.28",
-                "shasum": "2826f70f77d5b6fcd7369908c6031dc072ad2f2d"
+                "url": "https://packages.wenmarkdigital.com/satispress/gp-ecommerce-fields/1.2.29",
+                "shasum": "5b0b4b6bc8386e982e0d783349a9888a6ec0c2b5"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
