@@ -1154,16 +1154,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "4.9.1",
+            "version": "4.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "997fbde37d95817e6cd25e3546ca52feeff4b4c9"
+                "reference": "8fd2053bcd6852baf1e582a126afe618a49e06b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/997fbde37d95817e6cd25e3546ca52feeff4b4c9",
-                "reference": "997fbde37d95817e6cd25e3546ca52feeff4b4c9",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/8fd2053bcd6852baf1e582a126afe618a49e06b9",
+                "reference": "8fd2053bcd6852baf1e582a126afe618a49e06b9",
                 "shasum": ""
             },
             "require": {
@@ -1188,10 +1188,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.9.1",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/4.9.2",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2024-12-17T12:41:05+00:00"
+            "time": "2024-12-18T20:48:51+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1556,11 +1556,11 @@
         },
         {
             "name": "wenmark/elementor-pro",
-            "version": "3.26.0",
+            "version": "3.26.1",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.26.0",
-                "shasum": "d1fc7d310ea00b2cb14b1bc6fdb15191d1c29094"
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.26.1",
+                "shasum": "abfb5ce32dfae3ddb8c82f2935f8758a6b69740a"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2147,12 +2147,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "3076981ea708db9685cd16fa83f919cc0bd2cd65"
+                "reference": "4aa68d3ea343b9576b5fdebef1332f701a7bc994"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/3076981ea708db9685cd16fa83f919cc0bd2cd65",
-                "reference": "3076981ea708db9685cd16fa83f919cc0bd2cd65",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/4aa68d3ea343b9576b5fdebef1332f701a7bc994",
+                "reference": "4aa68d3ea343b9576b5fdebef1332f701a7bc994",
                 "shasum": ""
             },
             "conflict": {
@@ -2262,7 +2262,7 @@
                 "contao/managed-edition": "<=1.5",
                 "corveda/phpsandbox": "<1.3.5",
                 "cosenary/instagram": "<=2.3",
-                "craftcms/cms": "<=4.12.6.1|>=5,<=5.4.7.1",
+                "craftcms/cms": "<4.13.2|>=5,<5.5.2",
                 "croogo/croogo": "<4",
                 "cuyz/valinor": "<0.12",
                 "czim/file-handling": "<1.5|>=2,<2.3",
@@ -2739,7 +2739,7 @@
                 "snipe/snipe-it": "<=7.0.13",
                 "socalnick/scn-social-auth": "<1.15.2",
                 "socialiteproviders/steam": "<1.1",
-                "spatie/browsershot": "<5.0.1",
+                "spatie/browsershot": "<5.0.2",
                 "spatie/image-optimizer": "<1.7.3",
                 "spencer14420/sp-php-email-handler": "<1",
                 "spipu/html2pdf": "<5.2.8",
@@ -2852,7 +2852,7 @@
                 "typo3fluid/fluid": ">=2,<2.0.8|>=2.1,<2.1.7|>=2.2,<2.2.4|>=2.3,<2.3.7|>=2.4,<2.4.4|>=2.5,<2.5.11|>=2.6,<2.6.10",
                 "ua-parser/uap-php": "<3.8",
                 "uasoft-indonesia/badaso": "<=2.9.7",
-                "unisharp/laravel-filemanager": "<2.6.4",
+                "unisharp/laravel-filemanager": "<2.9.1",
                 "unopim/unopim": "<0.1.5",
                 "userfrosting/userfrosting": ">=0.3.1,<4.6.3",
                 "usmanhalalit/pixie": "<1.0.3|>=2,<2.0.2",
@@ -2991,7 +2991,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-17T12:08:23+00:00"
+            "time": "2024-12-18T20:05:40+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
