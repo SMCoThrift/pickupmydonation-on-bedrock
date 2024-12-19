@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dec147b96cb408f541890c762c0e018e",
+    "content-hash": "6090bb6bb19331fbd68d1299f6f4ae72",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1528,10 +1528,12 @@
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "Solid Plugins",
-                "homepage": "https://www.analyticswp.com/"
-            },
+            "authors": [
+                {
+                    "name": "Solid Plugins",
+                    "homepage": "https://www.analyticswp.com/"
+                }
+            ],
             "description": "AnalyticsWP. Analytics for WordPress.",
             "homepage": "https://www.analyticswp.com/"
         },
@@ -1547,10 +1549,12 @@
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "Dynamic.ooo",
-                "homepage": "https://www.dynamic.ooo/?utm_source=wp-plugins&#038;utm_campaign=plugin-uri&#038;utm_medium=wp-dash"
-            },
+            "authors": [
+                {
+                    "name": "Dynamic.ooo",
+                    "homepage": "https://www.dynamic.ooo/?utm_source=wp-plugins&#038;utm_campaign=plugin-uri&#038;utm_medium=wp-dash"
+                }
+            ],
             "description": "Building powerful websites by extending Elementor. We give you over 150 features that will save you time and money on achieving complex results. The only limit is your imagination.",
             "homepage": "https://www.dynamic.ooo/dynamic-content-for-elementor?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
         },
@@ -1566,10 +1570,12 @@
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "Elementor.com",
-                "homepage": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/"
-            },
+            "authors": [
+                {
+                    "name": "Elementor.com",
+                    "homepage": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/"
+                }
+            ],
             "description": "Elevate your designs and unlock the full power of Elementor. Gain access to dozens of Pro widgets and kits, Theme Builder, Pop Ups, Forms and WooCommerce building capabilities.",
             "homepage": "https://go.elementor.com/wp-dash-wp-plugins-author-uri/"
         },
@@ -1585,10 +1591,12 @@
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "Gravity Wiz",
-                "homepage": "http://gravitywiz.com/"
-            },
+            "authors": [
+                {
+                    "name": "Gravity Wiz",
+                    "homepage": "http://gravitywiz.com/"
+                }
+            ],
             "description": "Make Gravity Forms more eCommerce-friendly with support for Tax, Discounts, and Subtotal fields.",
             "homepage": "https://gravitywiz.com/documentation/gravity-forms-ecommerce-fields/"
         },
@@ -1604,10 +1612,12 @@
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "Gravity Forms",
-                "homepage": "https://gravityforms.com"
-            },
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
             "description": "Easily create web forms and manage form entries within the WordPress admin.",
             "homepage": "https://gravityforms.com"
         },
@@ -1623,10 +1633,12 @@
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "Gravity Forms",
-                "homepage": "https://gravityforms.com"
-            },
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
             "description": "Allows you to create new posts through Gravity Forms.",
             "homepage": "https://gravityforms.com"
         },
@@ -1642,10 +1654,12 @@
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "Gravity Forms",
-                "homepage": "https://gravityforms.com"
-            },
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
             "description": "Enables Gravity Forms administrators to create coupon codes that can be applied to products, services or subscriptions when used in conjunction with a payment add-on such as PayPal and Authorize.net.",
             "homepage": "https://gravityforms.com"
         },
@@ -1661,10 +1675,12 @@
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "Gravity Forms",
-                "homepage": "https://gravityforms.com"
-            },
+            "authors": [
+                {
+                    "name": "Gravity Forms",
+                    "homepage": "https://gravityforms.com"
+                }
+            ],
             "description": "Integrates Gravity Forms with Stripe, enabling end users to purchase goods and services through Gravity Forms.",
             "homepage": "https://gravityforms.com"
         },
@@ -1680,62 +1696,68 @@
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "Gravity Wiz",
-                "homepage": "https://gravitywiz.com/"
-            },
+            "authors": [
+                {
+                    "name": "Gravity Wiz",
+                    "homepage": "https://gravitywiz.com/"
+                }
+            ],
             "description": "Effortlessly install and manage small functionality enhancements (aka \"perks\") for Gravity Forms.",
             "homepage": "https://gravitywiz.com/"
         },
         {
             "name": "wenmark/ithemes-security-pro",
-            "version": "8.5.1",
+            "version": "8.5.3",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.5.1",
-                "shasum": "29f5bd0c8eba9b0156d87b2c333ea63b28a12ecb"
+                "url": "https://packages.wenmarkdigital.com/satispress/ithemes-security-pro/8.5.3",
+                "shasum": "9fc54ef81c14a0b4117604519b5688e9953e6e2e"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "SolidWP",
-                "homepage": "https://solidwp.com"
-            },
+            "authors": [
+                {
+                    "name": "SolidWP",
+                    "homepage": "https://solidwp.com"
+                }
+            ],
             "description": "Shield your site from cyberattacks and prevent security vulnerabilities. The only security plugin you need for a solid foundation.",
             "homepage": "https://solidwp.com/security"
         },
         {
             "name": "wenmark/wp-mail-smtp-pro",
-            "version": "4.1.1",
+            "version": "4.3.0",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/wp-mail-smtp-pro/4.1.1",
-                "shasum": "cf2b38d2b6198e940e52cec479da634af26fd2fa"
+                "url": "https://packages.wenmarkdigital.com/satispress/wp-mail-smtp-pro/4.3.0",
+                "shasum": "d7780320f5b73974dd0bc5fbc9c35a7980d8a553"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "authors": {
-                "name": "WP Mail SMTP",
-                "homepage": "https://wpmailsmtp.com/"
-            },
+            "authors": [
+                {
+                    "name": "WP Mail SMTP",
+                    "homepage": "https://wpmailsmtp.com/"
+                }
+            ],
             "description": "Reconfigures the <code>wp_mail()</code> function to use Gmail/Mailgun/SendGrid/SMTP instead of the default <code>mail()</code> and creates an options page to manage the settings.",
             "homepage": "https://wpmailsmtp.com/"
         },
         {
             "name": "wpackagist-plugin/acf-extended",
-            "version": "0.9.0.9",
+            "version": "0.9.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/acf-extended/",
-                "reference": "tags/0.9.0.9"
+                "reference": "tags/0.9.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.9.0.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/acf-extended.0.9.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1763,15 +1785,15 @@
         },
         {
             "name": "wpackagist-plugin/api-for-htmx",
-            "version": "0.9.1",
+            "version": "1.0.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/api-for-htmx/",
-                "reference": "tags/0.9.1"
+                "reference": "tags/1.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/api-for-htmx.0.9.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/api-for-htmx.1.0.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1871,15 +1893,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.26.0",
+            "version": "3.26.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.26.0"
+                "reference": "tags/3.26.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.26.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.26.1.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
