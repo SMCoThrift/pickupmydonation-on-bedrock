@@ -59,7 +59,7 @@
     "wpackagist-theme/twentytwentyfour": "^1.0",
     "lukasbesch/bedrock-plugin-disabler": "^1.4",
     "wpackagist-plugin/spinupwp": "^1.5",
-    "wpackagist-plugin/limit-login-attempts-reloaded": "^2.25",
+    "wpackagist-plugin/limit-login-attempts-reloaded": "^2",
     "wenmark/elementor-pro": "^3",
     "wpackagist-plugin/elementor": "^3.18",
     "wpackagist-theme/hello-elementor": "^3",
