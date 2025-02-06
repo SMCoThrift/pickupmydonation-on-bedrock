@@ -82,10 +82,10 @@
     "wenmark/dynamic-content-for-elementor": "^3",
     "wenmark/gravityperks": "^2.3",
     "wenmark/gp-ecommerce-fields": "^1.2",
-    "wenmark/wp-mail-smtp-pro": "^4.0",
+    "wenmark/wp-mail-smtp-pro": "^4",
     "wpackagist-plugin/google-sitemap-generator": "^4.1",
     "smcothrift/donation-manager": "^5",
-    "wenmark/analyticswp": "^1.9",
+    "wenmark/analyticswp": "^2",
     "wpackagist-plugin/api-for-htmx": "1.0.0"
   },
   "require-dev": {
