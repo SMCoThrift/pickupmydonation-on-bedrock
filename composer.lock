@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6dee8f69d0487a878bb441ba3bdf1204",
+    "content-hash": "a982dd2ceadf7a978578ed9dbe399c04",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1727,6 +1727,27 @@
             "homepage": "https://solidwp.com/security"
         },
         {
+            "name": "wenmark/wordpress-seo-premium",
+            "version": "24.4",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/24.4",
+                "shasum": "6fd002514684717c7d88b879f6c1e8b449935976"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Team Yoast",
+                    "homepage": "https://yoa.st/team-yoast-premium"
+                }
+            ],
+            "description": "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.",
+            "homepage": "https://yoa.st/2jc"
+        },
+        {
             "name": "wenmark/wp-mail-smtp-pro",
             "version": "4.3.1",
             "dist": {
@@ -2052,6 +2073,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/spinupwp/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "24.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/24.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
             "name": "wpackagist-theme/hello-elementor",
