@@ -118,6 +118,9 @@ Config::define('CLOUDINARY_API_SECRET', env('CLOUDINARY_API_SECRET'));
 Config::define('GOTJUNK_API_EP', env('GOTJUNK_API_EP') ?: false );
 Config::define('GOTJUNK_CLIENT_TOKEN', env('GOTJUNK_CLIENT_TOKEN') ?: false );
 
+Config::define('SUPABASE_URL', env('SUPABASE_URL') ?: false );
+Config::define('SUPABASE_APIKEY', env('SUPABASE_APIKEY') ?: false );
+
 // Disable the plugin and theme file editor in the admin
 // Commenting out for compat with iThemes Security:
 // Config::define('DISALLOW_FILE_EDIT', true);
