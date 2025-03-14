@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a982dd2ceadf7a978578ed9dbe399c04",
+    "content-hash": "f2099e1f060f449e7d4cc6a28d096c1c",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1767,6 +1767,27 @@
             ],
             "description": "Reconfigures the <code>wp_mail()</code> function to use Gmail/Mailgun/SendGrid/SMTP instead of the default <code>mail()</code> and creates an options page to manage the settings.",
             "homepage": "https://wpmailsmtp.com/"
+        },
+        {
+            "name": "wenmark/wp-rocket",
+            "version": "3.18.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://packages.wenmarkdigital.com/satispress/wp-rocket/3.18.2",
+                "shasum": "1c5788effec474619a12ebe14548f8b5f8dab892"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "WP Media",
+                    "homepage": "https://wp-media.me"
+                }
+            ],
+            "description": "The best WordPress performance plugin.",
+            "homepage": "https://wp-rocket.me"
         },
         {
             "name": "wpackagist-plugin/acf-extended",
