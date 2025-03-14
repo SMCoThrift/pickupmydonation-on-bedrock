@@ -121,6 +121,9 @@ Config::define('GOTJUNK_CLIENT_TOKEN', env('GOTJUNK_CLIENT_TOKEN') ?: false );
 Config::define('SUPABASE_URL', env('SUPABASE_URL') ?: false );
 Config::define('SUPABASE_APIKEY', env('SUPABASE_APIKEY') ?: false );
 
+Config::define('WP_ROCKET_EMAIL', env('WP_ROCKET_EMAIL') ?: false );
+Config::define('WP_ROCKET_KEY', env('WP_ROCKET_KEY') ?: false );
+
 // Disable the plugin and theme file editor in the admin
 // Commenting out for compat with iThemes Security:
 // Config::define('DISALLOW_FILE_EDIT', true);
