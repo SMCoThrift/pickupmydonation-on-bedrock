@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7521c5e08c6ee3ac155a231a5c1d185",
+    "content-hash": "28d8b1fcbed6b849acbc015346f553e5",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1728,11 +1728,11 @@
         },
         {
             "name": "wenmark/wordpress-seo-premium",
-            "version": "24.7",
+            "version": "24.8",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/24.7",
-                "shasum": "70c3e22898622e9a7d454e0e319b36fe7905cdd6"
+                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/24.8",
+                "shasum": "b91d2ff8f59cbaa6ecc3b7ae3529e8355f0e0c31"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2211,12 +2211,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "ea5e66cfcb7a8a5b915924fd8eca542397d6f324"
+                "reference": "1bde6181ac9a1681fbdfcbcd054c5f04db613a2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/ea5e66cfcb7a8a5b915924fd8eca542397d6f324",
-                "reference": "ea5e66cfcb7a8a5b915924fd8eca542397d6f324",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/1bde6181ac9a1681fbdfcbcd054c5f04db613a2e",
+                "reference": "1bde6181ac9a1681fbdfcbcd054c5f04db613a2e",
                 "shasum": ""
             },
             "conflict": {
@@ -2361,7 +2361,7 @@
                 "dolibarr/dolibarr": "<19.0.2|==21.0.0.0-beta",
                 "dompdf/dompdf": "<2.0.4",
                 "doublethreedigital/guest-entries": "<3.1.2",
-                "drupal/core": ">=6,<6.38|>=7,<7.102|>=8,<10.2.11|>=10.3,<10.3.9|>=11,<11.0.8",
+                "drupal/core": ">=6,<6.38|>=7,<7.102|>=8,<10.3.13|>=10.4,<10.4.3|>=11,<11.0.12|>=11.1,<11.1.3",
                 "drupal/core-recommended": ">=7,<7.102|>=8,<10.2.11|>=10.3,<10.3.9|>=11,<11.0.8",
                 "drupal/drupal": ">=5,<5.11|>=6,<6.38|>=7,<7.102|>=8,<10.2.11|>=10.3,<10.3.9|>=11,<11.0.8",
                 "duncanmcclean/guest-entries": "<3.1.2",
@@ -2781,7 +2781,7 @@
                 "shopware/production": "<=6.3.5.2",
                 "shopware/shopware": "<=5.7.17",
                 "shopware/storefront": "<=6.4.8.1|>=6.5.8,<6.5.8.7-dev",
-                "shopxo/shopxo": "<=6.1",
+                "shopxo/shopxo": "<=6.4",
                 "showdoc/showdoc": "<2.10.4",
                 "shuchkin/simplexlsx": ">=1.0.12,<1.1.13",
                 "silverstripe-australia/advancedreports": ">=1,<=2",
@@ -3083,7 +3083,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-03-26T15:05:37+00:00"
+            "time": "2025-04-01T18:06:17+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
