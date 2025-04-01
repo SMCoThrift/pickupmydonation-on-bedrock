@@ -1154,16 +1154,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "5.4.3",
+            "version": "5.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "29a04c610f463eeae51cc645a1d3b81f0c1034c9"
+                "reference": "46a021f7fa238e7c8db516259c044367a2826bae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/29a04c610f463eeae51cc645a1d3b81f0c1034c9",
-                "reference": "29a04c610f463eeae51cc645a1d3b81f0c1034c9",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/46a021f7fa238e7c8db516259c044367a2826bae",
+                "reference": "46a021f7fa238e7c8db516259c044367a2826bae",
                 "shasum": ""
             },
             "require": {
@@ -1188,10 +1188,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/5.4.3",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/5.4.4",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2025-03-31T22:46:23+00:00"
+            "time": "2025-04-01T13:24:36+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1935,15 +1935,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.28.2",
+            "version": "3.28.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.28.2"
+                "reference": "tags/3.28.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.28.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.28.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2079,15 +2079,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "24.7",
+            "version": "24.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/24.7"
+                "reference": "tags/24.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.7.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.24.8.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
