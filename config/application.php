@@ -117,6 +117,7 @@ Config::define('CLOUDINARY_API_KEY', env('CLOUDINARY_API_KEY'));
 Config::define('CLOUDINARY_API_SECRET', env('CLOUDINARY_API_SECRET'));
 Config::define('GOTJUNK_API_EP', env('GOTJUNK_API_EP') ?: false );
 Config::define('GOTJUNK_CLIENT_TOKEN', env('GOTJUNK_CLIENT_TOKEN') ?: false );
+Config::define('DM_ARCHIVE_LIMIT', env('DM_ARCHIVE_LIMIT') ?: false );
 
 Config::define('SUPABASE_URL', env('SUPABASE_URL') ?: false );
 Config::define('SUPABASE_APIKEY', env('SUPABASE_APIKEY') ?: false );
