@@ -1562,11 +1562,11 @@
         },
         {
             "name": "wenmark/elementor-pro",
-            "version": "3.28.2",
+            "version": "3.28.3",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.28.2",
-                "shasum": "5f34d7c39df024ff1db23a894862d22d9f2aeadc"
+                "url": "https://packages.wenmarkdigital.com/satispress/elementor-pro/3.28.3",
+                "shasum": "c3360cebaa5ef34871e9ed041e55b9e5ae9e3876"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1730,11 +1730,11 @@
         },
         {
             "name": "wenmark/wordpress-seo-premium",
-            "version": "24.8",
+            "version": "24.9",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/24.8",
-                "shasum": "b91d2ff8f59cbaa6ecc3b7ae3529e8355f0e0c31"
+                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/24.9",
+                "shasum": "97c15213e8e92dec0435fd2b382df12d4c5a42bf"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
