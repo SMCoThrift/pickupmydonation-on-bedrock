@@ -26,5 +26,6 @@ Config::define('DISABLED_PLUGINS', [
 	'jetpack/jetpack.php',
     'wp-mail-smtp-pro/wp_mail_smtp.php',
     'ithemes-security-pro/ithemes-security-pro.php',
-    'analyticswp/analyticswp.php'
+    'analyticswp/analyticswp.php',
+    'wp-rocket/wp-rocket.php'
 ]);
