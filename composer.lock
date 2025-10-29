@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d67f9366b9021bab518e7dfcd32958b3",
+    "content-hash": "42ce4dd432dc330e7a0c31a7c808bdbb",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1688,27 +1688,6 @@
             "homepage": "https://gravityforms.com"
         },
         {
-            "name": "wenmark/gravityperks",
-            "version": "2.3.15",
-            "dist": {
-                "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/gravityperks/2.3.15",
-                "shasum": "5ec17b0a3549540fb2091aa1bc1989d1887b5372"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Gravity Wiz",
-                    "homepage": "https://gravitywiz.com/"
-                }
-            ],
-            "description": "Effortlessly enhance Gravity Forms with powerful add-ons (“perks”) for smarter, more flexible forms—all backed by legendary support.",
-            "homepage": "https://gravitywiz.com/"
-        },
-        {
             "name": "wenmark/ithemes-security-pro",
             "version": "8.5.3",
             "dist": {
@@ -2025,6 +2004,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/limit-login-attempts-reloaded/"
+        },
+        {
+            "name": "wpackagist-plugin/localdev-switcher",
+            "version": "0.6.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/localdev-switcher/",
+                "reference": "tags/0.6.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/localdev-switcher.0.6.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/localdev-switcher/"
         },
         {
             "name": "wpackagist-plugin/redirection",
