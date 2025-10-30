@@ -85,8 +85,8 @@
     "smcothrift/donation-manager": "^5",
     "wenmark/analyticswp": "^2",
     "wpackagist-plugin/api-for-htmx": "1.0.0",
-    "wpackagist-plugin/wordpress-seo": "^25",
-    "wenmark/wordpress-seo-premium": "^25",
+    "wpackagist-plugin/wordpress-seo": "^26",
+    "wenmark/wordpress-seo-premium": "^26",
     "wenmark/wp-rocket": "^3.18",
     "wpackagist-plugin/localdev-switcher": "*"
   },

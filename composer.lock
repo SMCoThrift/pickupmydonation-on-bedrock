@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "42ce4dd432dc330e7a0c31a7c808bdbb",
+    "content-hash": "61ba513f31b9144951951fbb9bc35683",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1710,11 +1710,11 @@
         },
         {
             "name": "wenmark/wordpress-seo-premium",
-            "version": "25.0",
+            "version": "26.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/25.0",
-                "shasum": "619163edd3f5a0ec24b02bebdb7d2208d965014c"
+                "url": "https://packages.wenmarkdigital.com/satispress/wordpress-seo-premium/26.2",
+                "shasum": "3200aa0e2938f07c73691c3c664d8505ea5c72b3"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -2079,15 +2079,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "25.0",
+            "version": "26.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/25.0"
+                "reference": "tags/26.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.25.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.26.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
