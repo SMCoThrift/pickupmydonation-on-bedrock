@@ -119,6 +119,9 @@ Config::define('GOTJUNK_API_EP', env('GOTJUNK_API_EP') ?: false );
 Config::define('GOTJUNK_CLIENT_TOKEN', env('GOTJUNK_CLIENT_TOKEN') ?: false );
 Config::define('DM_ARCHIVE_LIMIT', env('DM_ARCHIVE_LIMIT') ?: false );
 
+Config::define('CHHJ_API_TOKEN', env('CHHJ_API_TOKEN') ?: false );
+Config::define('CHHJ_API_EP', env('CHHJ_API_EP') ?: false );
+
 Config::define('SUPABASE_URL', env('SUPABASE_URL') ?: false );
 Config::define('SUPABASE_APIKEY', env('SUPABASE_APIKEY') ?: false );
 
