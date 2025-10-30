@@ -22,4 +22,6 @@ Config::define('DISALLOW_FILE_MODS', false);
 // Development env disabled plugins
 Config::define('DISABLED_PLUGINS', [
     'jetpack/jetpack.php',
+    'wp-rocket/wp-rocket.php',
+    'wp-mail-smtp-pro/wp_mail_smtp.php',
 ]);
