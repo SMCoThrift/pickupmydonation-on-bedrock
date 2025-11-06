@@ -82,7 +82,7 @@
     "wenmark/gp-ecommerce-fields": "^1.2",
     "wenmark/wp-mail-smtp-pro": "^4",
     "wpackagist-plugin/google-sitemap-generator": "^4.1",
-    "smcothrift/donation-manager": "^5",
+    "smcothrift/donation-manager": "5.6.0",
     "wenmark/analyticswp": "^2",
     "wpackagist-plugin/api-for-htmx": "1.0.0",
     "wpackagist-plugin/wordpress-seo": "^26",
