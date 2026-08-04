@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9cb1197e99945980dfd5be183bd3d966",
+    "content-hash": "3b78a25da33c3dcdf65e17b5f5a82a34",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1151,16 +1151,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "5.6.1",
+            "version": "5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "300701c9cd46d5cb6df27727be9208aad821f93a"
+                "reference": "807eb4144a967dd0566d2e86f7cb25f50b5dcbc1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/300701c9cd46d5cb6df27727be9208aad821f93a",
-                "reference": "300701c9cd46d5cb6df27727be9208aad821f93a",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/807eb4144a967dd0566d2e86f7cb25f50b5dcbc1",
+                "reference": "807eb4144a967dd0566d2e86f7cb25f50b5dcbc1",
                 "shasum": ""
             },
             "require": {
@@ -1171,7 +1171,18 @@
                 "php": ">=8.0",
                 "zordius/lightncandy": "^1.2"
             },
+            "require-dev": {
+                "wpreadme2markdown/wp2md": "^4.3"
+            },
             "type": "wordpress-plugin",
+            "scripts": {
+                "readme": [
+                    "wp2md -i readme.txt -o README.md"
+                ],
+                "makepot": [
+                    "wp i18n make-pot . languages/donation-manager.pot --domain=donation-manager --exclude=node_modules,vendor,tests"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -1185,10 +1196,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/5.6.1",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/5.7.0",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2026-04-13T21:17:30+00:00"
+            "time": "2026-08-04T15:59:06+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
