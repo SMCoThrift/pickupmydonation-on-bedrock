@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3b78a25da33c3dcdf65e17b5f5a82a34",
+    "content-hash": "de15b8e072948cd4071bfb265d40a4dd",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1151,16 +1151,16 @@
         },
         {
             "name": "smcothrift/donation-manager",
-            "version": "5.7.0",
+            "version": "5.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SMCoThrift/donation-manager.git",
-                "reference": "807eb4144a967dd0566d2e86f7cb25f50b5dcbc1"
+                "reference": "809ffa68e9bcc7b238e269474e1ee125cb0d8a73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/807eb4144a967dd0566d2e86f7cb25f50b5dcbc1",
-                "reference": "807eb4144a967dd0566d2e86f7cb25f50b5dcbc1",
+                "url": "https://api.github.com/repos/SMCoThrift/donation-manager/zipball/809ffa68e9bcc7b238e269474e1ee125cb0d8a73",
+                "reference": "809ffa68e9bcc7b238e269474e1ee125cb0d8a73",
                 "shasum": ""
             },
             "require": {
@@ -1196,10 +1196,10 @@
             "description": "WordPress plugin for handling donations",
             "homepage": "https://github.com/SMCoThrift/donation-manager",
             "support": {
-                "source": "https://github.com/SMCoThrift/donation-manager/tree/5.7.0",
+                "source": "https://github.com/SMCoThrift/donation-manager/tree/5.7.1",
                 "issues": "https://github.com/SMCoThrift/donation-manager/issues"
             },
-            "time": "2026-08-04T15:59:06+00:00"
+            "time": "2026-08-04T17:15:06+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
