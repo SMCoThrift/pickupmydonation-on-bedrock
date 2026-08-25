@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd3cca377fb26d7abca1cba964f2d846",
+    "content-hash": "a00c64e38ca2e580a3d0097766a16e17",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1749,11 +1749,11 @@
         },
         {
             "name": "wenmark/wp-rocket",
-            "version": "3.18.2",
+            "version": "3.23.3.2",
             "dist": {
                 "type": "zip",
-                "url": "https://packages.wenmarkdigital.com/satispress/wp-rocket/3.18.2",
-                "shasum": "1c5788effec474619a12ebe14548f8b5f8dab892"
+                "url": "https://packages.wenmarkdigital.com/satispress/wp-rocket/3.23.3.2",
+                "shasum": "d581bbb2ccf4bd3dbc987d7642756759da3b6a85"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"

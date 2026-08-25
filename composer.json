@@ -86,7 +86,7 @@
     "wpackagist-plugin/api-for-htmx": "1.0.0",
     "wpackagist-plugin/wordpress-seo": "^26",
     "wenmark/wordpress-seo-premium": "^26",
-    "wenmark/wp-rocket": "^3.18",
+    "wenmark/wp-rocket": "^3",
     "wpackagist-plugin/localdev-switcher": "*"
   },
   "require-dev": {
