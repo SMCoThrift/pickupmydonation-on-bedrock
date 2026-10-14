@@ -1,0 +1,5 @@
+# TLS material SpinupWP leaves in the site config dir. The gate exports the
+# whole dir, so pull brings these down; never commit them.
+*.pem
+*.key
+*.crt
