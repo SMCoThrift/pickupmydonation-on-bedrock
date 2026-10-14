@@ -36,3 +36,11 @@ web/.htaccess
 
 # WP-CLI
 wp-cli.local.yml
+
+# nginx deploy mirror: TLS files SpinupWP leaves in the site config dir come
+# down with every pull (the gate exports the whole dir). Never commit them.
+# Kept here, not in bin/nginx/.gitignore, because pull deletes files the
+# server does not have.
+bin/nginx/*.pem
+bin/nginx/*.key
+bin/nginx/*.crt
