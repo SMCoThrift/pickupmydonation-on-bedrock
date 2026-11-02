@@ -3,8 +3,22 @@ set -euo pipefail
 
 cd "$WEB_DIR"
 
-echo "👉 [Elementor] Replacing https://$SYNC_REMOTE_HOST with https://$SYNC_LOCAL_HOST..."
-wp elementor replace_urls "https://$SYNC_REMOTE_HOST" "https://$SYNC_LOCAL_HOST"
+REMOTE_HOSTS=("$SYNC_REMOTE_HOST")
+
+# Production's canonical host is www.pickupmydonation.com, but `spinuptui pull
+# db` rewrites only the bare SpinupWP domain and passes that here, leaving every
+# www URL pointing at production. Rewrite the www host too. Remove this block
+# once https://github.com/mwender/spinupwp-tui/issues/95 is closed.
+if [[ "$SYNC_REMOTE_HOST" != www.* ]]; then
+  echo "👉 [WP DB] Replacing https://www.$SYNC_REMOTE_HOST with https://$SYNC_LOCAL_HOST..."
+  wp search-replace "https://www.$SYNC_REMOTE_HOST" "https://$SYNC_LOCAL_HOST" --skip-columns=guid --format=count
+  REMOTE_HOSTS+=("www.$SYNC_REMOTE_HOST")
+fi
+
+for host in "${REMOTE_HOSTS[@]}"; do
+  echo "👉 [Elementor] Replacing https://$host with https://$SYNC_LOCAL_HOST..."
+  wp elementor replace_urls "https://$host" "https://$SYNC_LOCAL_HOST"
+done
 
 echo "👉 [Elementor] Flushing CSS..."
 wp elementor flush_css

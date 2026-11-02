@@ -21,4 +21,4 @@ The Bower step installs the form's front-end libraries (file upload, datepicker,
 
 Then use **Switch to Local** on the plugin's row in Plugins. The clone's own `AGENTS.md` covers checking which copy is active and the release flow.
 
-A production database pull (`spinuptui pull db pickupmydonation.com --yes`, or `p` in SpinupTUI) brings production's active plugins with it. `bin/sync.d/post-import.sh` puts the setup back afterwards: it activates LocalDev Switcher and switches every plugin that has a `localdev-` checkout to it.
+A production database pull (`spinuptui pull db pickupmydonation.com --yes`, or `p` in SpinupTUI) brings production's active plugins with it. `bin/sync.d/post-import.sh` puts the setup back afterwards: it activates LocalDev Switcher and switches every plugin that has a `localdev-` checkout to it. Until [spinupwp-tui#95](https://github.com/mwender/spinupwp-tui/issues/95) is fixed, the hook also rewrites the `https://www.` production URLs, which `pull db` leaves behind.
