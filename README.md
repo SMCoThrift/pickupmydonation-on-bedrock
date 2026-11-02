@@ -8,12 +8,14 @@
 
 ## Working with the Donation Manager plugin repository
 
-When deploying this project, be sure `composer.json` is referencing the Donation Manager plugin repository as defined in composer.production.json. When doing local development, copy `composer.local.json` into `composer.json`.
+`composer.json` installs Donation Manager from its tagged releases (`smcothrift/donation-manager`, pinned to an exact version) into `web/app/plugins/donation-manager`. Never edit that copy: `composer update` overwrites it.
 
-After copying `composer.local.json` into `composer.json`, do the following to update the project to use the symlinked repository for the Donation Manager plugin:
+Development happens in a git clone of the plugin next to it, switched on with [LocalDev Switcher](https://wordpress.org/plugins/localdev-switcher/) (installed by Composer):
 
-1. Clear Composer's cache: `composer clear-cache`
-2. Update the dependency for the plugin: `composer update smcothrift/donation-manager`
-3. Verify the symlink.
+```bash
+git clone git@github.com:SMCoThrift/donation-manager.git web/app/plugins/localdev-donation-manager
+```
 
-Once you're ready to deploy, do the same thing as above but copy `composer.production.json` to `composer.json` before doing steps 1-3.
+Then use **Switch to Local** on the plugin's row in Plugins. The clone's own `AGENTS.md` covers checking which copy is active and the release flow.
+
+A production database pull (`spinuptui pull db pickupmydonation.com --yes`, or `p` in SpinupTUI) brings production's active plugins with it. `bin/sync.d/post-import.sh` puts the setup back afterwards: it activates LocalDev Switcher and switches every plugin that has a `localdev-` checkout to it.
