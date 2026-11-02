@@ -14,7 +14,10 @@ Development happens in a git clone of the plugin next to it, switched on with [L
 
 ```bash
 git clone git@github.com:SMCoThrift/donation-manager.git web/app/plugins/localdev-donation-manager
+cd web/app/plugins/localdev-donation-manager && npx bower install
 ```
+
+The Bower step installs the form's front-end libraries (file upload, datepicker, input masks) into the gitignored `lib/components/vendor/`. Production gets them the same way: the SpinupWP deploy script runs `bower install` in `donation-manager` after `composer install`. Locally, run it in `donation-manager` too after a `composer update` replaces that copy.
 
 Then use **Switch to Local** on the plugin's row in Plugins. The clone's own `AGENTS.md` covers checking which copy is active and the release flow.
 
