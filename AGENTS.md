@@ -33,6 +33,16 @@ Applied on web2 on 2026-10-14, after a slow admin grid tied up all 6 static PHP-
 - **"Click to Claim" (`click_timestamp`) was turned off on purpose** on 2023-12-07 (plugin commit `3afa964`), at Jake's request after complaints (PMD to-do 6820012589). Claim data stops then. That's not a bug.
 - **Run analyses against the local copy, not production.** A whole-range postmeta join on production took 41 seconds; refresh the local database first (`spinuptui pull db`). For metro analyses, rural zips have MSA code `0000`, so group them by county.
 
+## Orphan follow-up email and priority upgrade
+
+Since Donation Manager 5.12.0 (2026-11-03), orphaned donors who declined fee-based pickup (`fee_based` = `0`) get one email about 48 hours later, offering the priority partner(s) in their zip. Zips without a priority partner get nothing. The email's button opens `/priority-upgrade/` (page 1055076, `[priority-upgrade]`), and confirming there moves the **same** donation to the partner and sends it as a priority donation.
+
+- **On/off and delay:** Donation Manager → General → Orphan Follow-up Email. Turning it off stops new emails immediately.
+- **Runs from the site user's crontab** at :07, :22, :37 and :52: `wp dm orphan-followup`, one batch of up to 50, one summary line per run appended to `logs/orphan-followup.log`. `wp dm orphan-followup --dry-run` lists who's due; `--donation=<id> --to=<email>` sends a test copy without marking the donation. Never click Confirm on a real donor's link: it sends their donation to the partner.
+- **Meta:** `_orphan_followup_sent` or `_orphan_followup_skipped` (`no-partner`, `no-email`) on every donation it looks at. An upgraded donation has `_priority_upgraded_at`, `_priority_upgrade_source` = `orphan-followup`, and its original org and trans dept in `_priority_upgraded_from_org` and `_priority_upgraded_from_trans_dept`.
+- **Stats:** the "Orphaned Donation Stats" Dashboard widget. Upgrades also count in the partner rows of the main stats, on the day the donation was submitted.
+- The commented-out `followup-emails/` script in the crontab (a 2023 version that emailed every orphan, off since March 2025) was replaced by this job. The previous crontab is saved at `/sites/pickupmydonation.com/crontab-backup-20261103.txt`.
+
 ## Priority zip reassignment
 
 Priority zips are `pickup_code` terms on `trans_dept` posts. An organization's `pickup_settings.priority_pickup` makes it a priority partner, and `pickup_settings_donation_routing` sets delivery (`email` or `1800gj_api`). Key IDs:
