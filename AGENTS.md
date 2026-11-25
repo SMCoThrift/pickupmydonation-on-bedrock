@@ -14,7 +14,7 @@ The Roots Bedrock site behind https://www.pickupmydonation.com. The donation int
 
 Pushing `main` deploys production (SpinupWP Push-to-Deploy). It lands within about 10 seconds. The deploy script is `composer install -o --no-dev`, then `bower install` in `web/app/plugins/donation-manager`.
 
-- Confirm before pushing `main` unless a deploy was asked for. Afterwards, check production: the Donation Manager version, `wp option get donman_db_version`, and healthz.
+- Confirm before pushing `main` unless a deploy was asked for. Afterwards, check production: the Donation Manager version, `wp option get donman_db_version`, and the server health check, `curl -s https://web2.pickupmydonation.com/?healthz`, which prints `ok` (it lives on the server's SpinupTUI vanity page, not the site; see `~/Projects/spinupwp-cli-dashboard/docs/site-monitoring.md`).
 - A Donation Manager release reaches production by bumping the exact pin in `composer.json`, running `composer update smcothrift/donation-manager`, and committing `Updating Donation Manager (A.B.C => X.Y.Z)`.
 - The cache drop-ins (`web/app/object-cache.php`, `web/app/advanced-cache.php`) aren't tracked, are gitignored, and survive deploys. The Redis object cache has been on since 2026-10-14.
 - `~/files/update-donation-manager.sh` on the server is stale (pre-Bedrock `public/` layout). Ignore it.
