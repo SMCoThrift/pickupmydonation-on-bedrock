@@ -3,16 +3,20 @@ set -euo pipefail
 
 cd "$WEB_DIR"
 
-REMOTE_HOSTS=("$SYNC_REMOTE_HOST")
-
-# Production's canonical host is www.pickupmydonation.com, but `spinuptui pull
-# db` rewrites only the bare SpinupWP domain and passes that here, leaving every
-# www URL pointing at production. Rewrite the www host too. Remove this block
-# once https://github.com/mwender/spinupwp-tui/issues/95 is closed.
-if [[ "$SYNC_REMOTE_HOST" != www.* ]]; then
-  echo "👉 [WP DB] Replacing https://www.$SYNC_REMOTE_HOST with https://$SYNC_LOCAL_HOST..."
-  wp search-replace "https://www.$SYNC_REMOTE_HOST" "https://$SYNC_LOCAL_HOST" --skip-columns=guid --format=count
-  REMOTE_HOSTS+=("www.$SYNC_REMOTE_HOST")
+# SpinupTUI 1.2.2+ rewrites production's home URL (www.) and the bare domain
+# itself, and lists every host it rewrote in SYNC_REMOTE_HOSTS.
+if [[ -n "${SYNC_REMOTE_HOSTS:-}" ]]; then
+  read -ra REMOTE_HOSTS <<< "$SYNC_REMOTE_HOSTS"
+else
+  # Older SpinupTUI rewrites only the bare SpinupWP domain, leaving every www
+  # URL pointing at production. Remove this branch once every machine that
+  # pulls this site runs SpinupTUI 1.2.2 or later.
+  REMOTE_HOSTS=("$SYNC_REMOTE_HOST")
+  if [[ "$SYNC_REMOTE_HOST" != www.* ]]; then
+    echo "👉 [WP DB] Replacing https://www.$SYNC_REMOTE_HOST with https://$SYNC_LOCAL_HOST..."
+    wp search-replace "https://www.$SYNC_REMOTE_HOST" "https://$SYNC_LOCAL_HOST" --skip-columns=guid --all-tables-with-prefix --format=count
+    REMOTE_HOSTS+=("www.$SYNC_REMOTE_HOST")
+  fi
 fi
 
 for host in "${REMOTE_HOSTS[@]}"; do
