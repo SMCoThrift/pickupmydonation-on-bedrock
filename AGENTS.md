@@ -6,6 +6,8 @@ The Roots Bedrock site behind https://www.pickupmydonation.com. The donation int
 
 - **Development home:** the Mac Mini, at `~/webdev/bedrock/pickupmydonation.com`, served by Valet as `https://pickupmydonation.test` on PHP 8.4 (`valet isolate`). Mail is caught by Mailpit. The partner API constants (`CHHJ_*`, `GOTJUNK_*`) stay unset locally, so nothing is sent to partners.
 - **Production:** SpinupWP server web2.pickupmydonation.com (159.203.174.70), site user `pickupmydonation`, site root `/sites/pickupmydonation.com/files`. The canonical host is `www.`; the bare domain 301s to it, so `curl` checks against production need `-L`.
+- **Site-wide custom CSS** is an Elementor Pro Custom Code snippet (Elementor → Custom Code, "Content spacing (from Instant CSS)"), stored in the database, not the repo. It replaced the Instant CSS plugin in 2026-11, because Instant CSS is trunk-only on WordPress.org and WP Packages can't serve it without SVN.
+- **WordPress.org plugins and themes come from WP Packages** (`repo.wp-packages.org`, `wp-plugin/<slug>`, `wp-theme/<slug>`). The site moved off WPackagist on 2026-11-25.
 - **Direct `ssh pickupmydonation@159.203.174.70` is allowed** for this site (Michael, 2026-10-14), beyond the read-only `spinuptui ssh-exec` gate. Production changes still need his go-ahead.
 
 ## Deploys

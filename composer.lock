@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b9f07104c72a3701abea89259d38a072",
+    "content-hash": "2c721ec65348a29be79b89e1b8e36487",
     "packages": [
         {
             "name": "a5hleyrich/wp-background-processing",
@@ -1744,7 +1744,7 @@
             "homepage": "https://wp-rocket.me"
         },
         {
-            "name": "wpackagist-plugin/acf-extended",
+            "name": "wp-plugin/acf-extended",
             "version": "0.9.2.7",
             "source": {
                 "type": "svn",
@@ -1756,13 +1756,27 @@
                 "url": "https://downloads.wordpress.org/plugin/acf-extended.0.9.2.7.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/acf-extended/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Konrad Chmielewski"
+                }
+            ],
+            "description": "All-in-one enhancement suite that improves WordPress & Advanced Custom Fields.",
+            "homepage": "https://www.acf-extended.com",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/acf-extended/#developers",
+                "issues": "https://wordpress.org/support/plugin/acf-extended",
+                "source": "https://plugins.svn.wordpress.org/acf-extended"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/akismet",
+            "name": "wp-plugin/akismet",
             "version": "5.7.2",
             "source": {
                 "type": "svn",
@@ -1774,13 +1788,27 @@
                 "url": "https://downloads.wordpress.org/plugin/akismet.5.7.2.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/akismet/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Automattic"
+                }
+            ],
+            "description": "The best anti-spam protection to block spam comments and spam in a contact form. The most trusted antispam solution for WordPress and WooCommerce.",
+            "homepage": "https://akismet.com/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/akismet/#developers",
+                "issues": "https://wordpress.org/support/plugin/akismet",
+                "source": "https://plugins.svn.wordpress.org/akismet"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/api-for-htmx",
+            "name": "wp-plugin/api-for-htmx",
             "version": "1.0.0",
             "source": {
                 "type": "svn",
@@ -1792,13 +1820,27 @@
                 "url": "https://downloads.wordpress.org/plugin/api-for-htmx.1.0.0.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/api-for-htmx/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Esteban"
+                }
+            ],
+            "description": "Build reactive WordPress blocks and pages with HTMX or Datastar (Alpine alongside HTMX), using only PHP and HTML attributes. No JavaScript required.",
+            "homepage": "https://github.com/EstebanForge/HyperPress",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/api-for-htmx/#developers",
+                "issues": "https://wordpress.org/support/plugin/api-for-htmx",
+                "source": "https://plugins.svn.wordpress.org/api-for-htmx"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/catch-ids",
+            "name": "wp-plugin/catch-ids",
             "version": "2.8.1",
             "source": {
                 "type": "svn",
@@ -1810,13 +1852,27 @@
                 "url": "https://downloads.wordpress.org/plugin/catch-ids.2.8.1.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/catch-ids/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Catch Themes"
+                }
+            ],
+            "description": "What this plugin does is to shows the IDs on admin section.",
+            "homepage": "https://catchplugins.com/plugins/catch-ids/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/catch-ids/#developers",
+                "issues": "https://wordpress.org/support/plugin/catch-ids",
+                "source": "https://plugins.svn.wordpress.org/catch-ids"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/custom-taxonomy-order-ne",
+            "name": "wp-plugin/custom-taxonomy-order-ne",
             "version": "4.0.2",
             "source": {
                 "type": "svn",
@@ -1828,13 +1884,27 @@
                 "url": "https://downloads.wordpress.org/plugin/custom-taxonomy-order-ne.4.0.2.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-taxonomy-order-ne/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Marcel Pol"
+                }
+            ],
+            "description": "Allows for the ordering of categories and custom taxonomy terms through a simple drag-and-drop interface",
+            "homepage": "https://wordpress.org/plugins/custom-taxonomy-order-ne/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/custom-taxonomy-order-ne/#developers",
+                "issues": "https://wordpress.org/support/plugin/custom-taxonomy-order-ne",
+                "source": "https://plugins.svn.wordpress.org/custom-taxonomy-order-ne"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/default-featured-image",
+            "name": "wp-plugin/default-featured-image",
             "version": "1.8.2",
             "source": {
                 "type": "svn",
@@ -1846,13 +1916,27 @@
                 "url": "https://downloads.wordpress.org/plugin/default-featured-image.1.8.2.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/default-featured-image/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Jan-Willem"
+                }
+            ],
+            "description": "Add a Default Featured Image for all posts & pages.",
+            "homepage": "http://wordpress.org/extend/plugins/default-featured-image/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/default-featured-image/#developers",
+                "issues": "https://wordpress.org/support/plugin/default-featured-image",
+                "source": "https://plugins.svn.wordpress.org/default-featured-image"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/disable-gutenberg",
+            "name": "wp-plugin/disable-gutenberg",
             "version": "3.3.2",
             "source": {
                 "type": "svn",
@@ -1864,13 +1948,27 @@
                 "url": "https://downloads.wordpress.org/plugin/disable-gutenberg.3.3.2.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/disable-gutenberg/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Jeff Starr"
+                }
+            ],
+            "description": "Disable Gutenberg Block Editor and restore the Classic Editor and original Edit Post screen (TinyMCE, meta boxes, etc.).",
+            "homepage": "https://perishablepress.com/disable-gutenberg/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/disable-gutenberg/#developers",
+                "issues": "https://wordpress.org/support/plugin/disable-gutenberg",
+                "source": "https://plugins.svn.wordpress.org/disable-gutenberg"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/duplicate-post",
+            "name": "wp-plugin/duplicate-post",
             "version": "4.7",
             "source": {
                 "type": "svn",
@@ -1882,13 +1980,27 @@
                 "url": "https://downloads.wordpress.org/plugin/duplicate-post.4.7.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/duplicate-post/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Yoast"
+                }
+            ],
+            "description": "The go-to tool for cloning posts and pages, including the powerful Rewrite & Republish feature.",
+            "homepage": "https://yoast.com/wordpress/plugins/duplicate-post/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/duplicate-post/#developers",
+                "issues": "https://wordpress.org/support/plugin/duplicate-post",
+                "source": "https://plugins.svn.wordpress.org/duplicate-post"
+            },
+            "time": "2026-10-06T13:22:12+00:00",
+            "published-time": "2026-10-06T13:22:12+00:00"
         },
         {
-            "name": "wpackagist-plugin/elementor",
+            "name": "wp-plugin/elementor",
             "version": "4.3.0",
             "source": {
                 "type": "svn",
@@ -1900,13 +2012,27 @@
                 "url": "https://downloads.wordpress.org/plugin/elementor.4.3.0.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/elementor/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Elementor"
+                }
+            ],
+            "description": "The Elementor Website Builder has it all: drag and drop page builder, Atomic Editor, pixel perfect design, global and reusable style systems, mobile r …",
+            "homepage": "https://elementor.com/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/elementor/#developers",
+                "issues": "https://wordpress.org/support/plugin/elementor",
+                "source": "https://plugins.svn.wordpress.org/elementor"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/google-sitemap-generator",
+            "name": "wp-plugin/google-sitemap-generator",
             "version": "4.1.25",
             "source": {
                 "type": "svn",
@@ -1918,13 +2044,27 @@
                 "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.1.25.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Auctollo"
+                }
+            ],
+            "description": "Generate multiple types of sitemaps to improve SEO and get your website indexed quickly.",
+            "homepage": "https://auctollo.com/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/google-sitemap-generator/#developers",
+                "issues": "https://wordpress.org/support/plugin/google-sitemap-generator",
+                "source": "https://plugins.svn.wordpress.org/google-sitemap-generator"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/host-analyticsjs-local",
+            "name": "wp-plugin/host-analyticsjs-local",
             "version": "5.0.3",
             "source": {
                 "type": "svn",
@@ -1936,13 +2076,27 @@
                 "url": "https://downloads.wordpress.org/plugin/host-analyticsjs-local.5.0.3.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/host-analyticsjs-local/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Daan van den Bergh"
+                }
+            ],
+            "description": "The fastest, lightest way to integrate Google Analytics in WordPress.",
+            "homepage": "https://daan.dev/wordpress/caos/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/host-analyticsjs-local/#developers",
+                "issues": "https://wordpress.org/support/plugin/host-analyticsjs-local",
+                "source": "https://plugins.svn.wordpress.org/host-analyticsjs-local"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/limit-login-attempts-reloaded",
+            "name": "wp-plugin/limit-login-attempts-reloaded",
             "version": "2.26.28",
             "source": {
                 "type": "svn",
@@ -1954,13 +2108,26 @@
                 "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.26.28.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/limit-login-attempts-reloaded/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "WPChef"
+                }
+            ],
+            "description": "WordPress login security with brute force protection, Two-factor authentication (2FA/MFA), firewall, IP/country blocking, and login monitoring",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/limit-login-attempts-reloaded/#developers",
+                "issues": "https://wordpress.org/support/plugin/limit-login-attempts-reloaded",
+                "source": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/localdev-switcher",
+            "name": "wp-plugin/localdev-switcher",
             "version": "0.8.0",
             "source": {
                 "type": "svn",
@@ -1972,13 +2139,27 @@
                 "url": "https://downloads.wordpress.org/plugin/localdev-switcher.0.8.0.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/localdev-switcher/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "thewebist"
+                }
+            ],
+            "description": "Easily switch between version-controlled plugins/themes and local development versions by toggling in the Plugins and Themes screens.",
+            "homepage": "https://wordpress.org/plugins/localdev-switcher/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/localdev-switcher/#developers",
+                "issues": "https://wordpress.org/support/plugin/localdev-switcher",
+                "source": "https://plugins.svn.wordpress.org/localdev-switcher"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/redirection",
+            "name": "wp-plugin/redirection",
             "version": "5.10.1",
             "source": {
                 "type": "svn",
@@ -1990,13 +2171,27 @@
                 "url": "https://downloads.wordpress.org/plugin/redirection.5.10.1.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/redirection/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "John Godley"
+                }
+            ],
+            "description": "Manage 301 redirects, track 404 errors, and improve your site. No knowledge of Apache or Nginx required.",
+            "homepage": "https://redirection.me/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/redirection/#developers",
+                "issues": "https://wordpress.org/support/plugin/redirection",
+                "source": "https://plugins.svn.wordpress.org/redirection"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/simple-page-ordering",
+            "name": "wp-plugin/simple-page-ordering",
             "version": "2.8.0",
             "source": {
                 "type": "svn",
@@ -2008,13 +2203,27 @@
                 "url": "https://downloads.wordpress.org/plugin/simple-page-ordering.2.8.0.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/simple-page-ordering/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "10up"
+                }
+            ],
+            "description": "Order your pages and other custom post types that support \"page-attributes\" with drag and drop right from the standard page list.",
+            "homepage": "http://10up.com/plugins/simple-page-ordering-wordpress/",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/simple-page-ordering/#developers",
+                "issues": "https://wordpress.org/support/plugin/simple-page-ordering",
+                "source": "https://plugins.svn.wordpress.org/simple-page-ordering"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/spinupwp",
+            "name": "wp-plugin/spinupwp",
             "version": "1.9.1",
             "source": {
                 "type": "svn",
@@ -2026,13 +2235,27 @@
                 "url": "https://downloads.wordpress.org/plugin/spinupwp.1.9.1.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/spinupwp/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Brad Touesnard"
+                }
+            ],
+            "description": "SpinupWP is a modern server control panel that's here to help you implement best practices for every server you spin up. Designed for WordPress.",
+            "homepage": "https://spinupwp.com",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/spinupwp/#developers",
+                "issues": "https://wordpress.org/support/plugin/spinupwp",
+                "source": "https://plugins.svn.wordpress.org/spinupwp"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-plugin/wordpress-seo",
+            "name": "wp-plugin/wordpress-seo",
             "version": "26.9",
             "source": {
                 "type": "svn",
@@ -2044,13 +2267,27 @@
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.26.9.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "authors": [
+                {
+                    "name": "Yoast"
+                }
+            ],
+            "description": "Real-time SEO guidance, schema, and AI built in. Help search engines and AI systems understand your content. All AI tools included, no hidden fees.",
+            "homepage": "https://yoa.st/1uj",
+            "support": {
+                "changelog": "https://wordpress.org/plugins/wordpress-seo/#developers",
+                "issues": "https://wordpress.org/support/plugin/wordpress-seo",
+                "source": "https://plugins.svn.wordpress.org/wordpress-seo"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-theme/hello-elementor",
+            "name": "wp-theme/hello-elementor",
             "version": "3.5.1",
             "source": {
                 "type": "svn",
@@ -2062,13 +2299,22 @@
                 "url": "https://downloads.wordpress.org/theme/hello-elementor.3.5.1.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/hello-elementor/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "description": "Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.",
+            "homepage": "https://wordpress.org/themes/hello-elementor/",
+            "support": {
+                "changelog": "https://wordpress.org/themes/hello-elementor/#developers",
+                "issues": "https://wordpress.org/support/theme/hello-elementor",
+                "source": "https://themes.svn.wordpress.org/hello-elementor"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
-            "name": "wpackagist-theme/twentytwentyfour",
+            "name": "wp-theme/twentytwentyfour",
             "version": "1.6",
             "source": {
                 "type": "svn",
@@ -2080,10 +2326,19 @@
                 "url": "https://downloads.wordpress.org/theme/twentytwentyfour.1.6.zip"
             },
             "require": {
-                "composer/installers": "^1.0 || ^2.0"
+                "composer/installers": "~1.0|~2.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/twentytwentyfour/"
+            "notification-url": "https://wp-packages.org/downloads",
+            "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+            "homepage": "https://wordpress.org/themes/twentytwentyfour/",
+            "support": {
+                "changelog": "https://wordpress.org/themes/twentytwentyfour/#developers",
+                "issues": "https://wordpress.org/support/theme/twentytwentyfour",
+                "source": "https://themes.svn.wordpress.org/twentytwentyfour"
+            },
+            "time": "2026-09-29T13:03:58+00:00",
+            "published-time": "2026-09-29T13:03:58+00:00"
         },
         {
             "name": "wpengine/advanced-custom-fields-pro",
